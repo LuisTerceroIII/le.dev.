@@ -1,0 +1,103 @@
+
+@media only screen and (max-width: 600px) {
+  .App {
+    display: inline-block;
+    background-color: #3B6C8F;
+    z-index: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .title-landing {
+    margin-left: 5%;
+    color: #FFFFFF;
+    font-size: 15vw;
+    font-family: 'Prata', serif;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin-top: 0%;
+  }
+  .sun {
+    width: 65%;
+    margin-top: -10%;
+    display: block;
+    position: relative;
+    opacity: 0.5;
+    z-index: 0;
+    margin-left: 40%;
+
+  }
+  .moon {
+    display: block;
+    width: 65%;
+    margin-top: -10%;
+    position: relative;
+    opacity: 0.5;
+    z-index: 0;
+    margin-left: 40%;
+  }
+
+  .landing-button {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+    width: 23vw;
+    height: 15vw;
+    display:inline-block;
+    position: relative;
+    top: -10vw;
+    margin-left: 5%;
+    font-family: 'Prata', serif;
+    font-size: 4vw;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000000;
+    z-index: 2;
+  }
+
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .sun {
+    -webkit-animation: sun-spin-up infinite 50s linear;
+    z-index: 0;
+  }
+
+  .moon {
+    -webkit-animation: moon-spin-down infinite 50s linear;
+  }
+}
+
+@keyframes sun-spin-up {
+  0% {
+    transform: rotate(0deg);
+    top: 35%;
+  }
+  50% {
+    transform: rotate(360deg);
+    top: -90%
+  }
+  100% {
+    transform: rotate(0deg);
+    top: 35%;
+  }
+
+}
+
+@keyframes moon-spin-down {
+  0% {
+    transform: rotate(0deg);
+    top: -140%;
+  }
+  50% {
+    transform: rotate(360deg);
+    top: 10%
+  }
+  100% {
+    transform: rotate(0deg);
+    top: -140%;
+  }
+}
