@@ -1,36 +1,41 @@
 
 @media only screen and (max-width: 600px) {
   .App {
-    display: inline-block;
     background-color: #3B6C8F;
-    z-index: 0;
     height: 100vh;
     overflow: hidden;
+    z-index: 0;
   }
   .title-landing {
     margin-left: 5%;
     color: #FFFFFF;
-    font-size: 15vw;
+    font-size: 13vw;
+    padding: 0 10% 0 0 ;
     font-family: 'Prata', serif;
     display: inline-block;
     position: relative;
     z-index: 2;
-    margin-top: 0%;
+    margin-top: 15%;
+  }
+
+  .background-images-home {
+    display: block;
+    flex-direction: column;
+    position: relative;
+    margin-top: -100%;
   }
   .sun {
-    width: 65%;
-    margin-top: -10%;
+    width: 60%;
     display: block;
     position: relative;
     opacity: 0.5;
     z-index: 0;
     margin-left: 40%;
-
+    top: 30vw;
   }
   .moon {
     display: block;
     width: 65%;
-    margin-top: -10%;
     position: relative;
     opacity: 0.5;
     z-index: 0;
@@ -63,7 +68,6 @@
 @media (prefers-reduced-motion: no-preference) {
   .sun {
     -webkit-animation: sun-spin-up infinite 50s linear;
-    z-index: 0;
   }
 
   .moon {
@@ -74,15 +78,15 @@
 @keyframes sun-spin-up {
   0% {
     transform: rotate(0deg);
-    top: 35%;
+    top: 5%;
   }
   50% {
     transform: rotate(360deg);
-    top: -90%
+    top: -140%;
   }
   100% {
     transform: rotate(0deg);
-    top: 35%;
+    top: 5%;
   }
 
 }
@@ -90,14 +94,14 @@
 @keyframes moon-spin-down {
   0% {
     transform: rotate(0deg);
-    top: -140%;
+    top: -100%;
   }
   50% {
     transform: rotate(360deg);
-    top: 10%
+    top: 40%;
   }
   100% {
     transform: rotate(0deg);
-    top: -140%;
+    top: -100%;
   }
 }

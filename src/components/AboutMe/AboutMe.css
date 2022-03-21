@@ -1,0 +1,35 @@
+.about-me-main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #6ea59c;
+    position: relative;
+    min-height: 100vh;
+}
+
+.about-me-title {
+    text-align: center;
+    font-size: 5.5vw;
+    font-family: 'Prata', serif;
+}
+.avatar-image-tilt {
+    overflow: visible;
+    border-radius: 50%;
+    shape-outside: circle();
+    padding-right: 5%;
+    float: left;
+    margin-left: 5%;
+}
+
+.avatar-image-about-me {
+    max-width: 60vw;
+}
+.about-paragraph-right {
+    font-size: 4vw;
+    padding: 0% 10% 0% 10%;
+    width: auto;
+    line-height: 7vw;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    white-space: pre-wrap;
+}

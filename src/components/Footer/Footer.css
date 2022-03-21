@@ -1,0 +1,19 @@
+.footer-container {
+    min-width: 100%;
+    max-height: 12vh;
+    background-color: rgba(0, 0, 0, 0.97);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.footer-copyright-disclaimer {
+    color: #FFFFFF;
+    font-family: 'Open Sans', serif;
+
+}
