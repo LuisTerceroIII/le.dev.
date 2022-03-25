@@ -1,14 +1,14 @@
 
 @media only screen and (max-width: 600px) {
   .App {
-    background-color: #3B6C8F;
+    background-color: rgba(238, 238, 180, 0.32);
     height: 100vh;
     overflow: hidden;
     z-index: 0;
   }
   .title-landing {
     margin-left: 5%;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 13vw;
     padding: 0 10% 0 0 ;
     font-family: 'Prata', serif;
@@ -44,19 +44,19 @@
 
   .landing-button {
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #000000;
     border: none;
     width: 23vw;
     height: 15vw;
     display:inline-block;
     position: relative;
-    top: -10vw;
+    top: -5vw;
     margin-left: 5%;
     font-family: 'Prata', serif;
     font-size: 4vw;
     cursor: pointer;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     z-index: 2;
   }
 

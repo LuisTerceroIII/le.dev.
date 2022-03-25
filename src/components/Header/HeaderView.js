@@ -38,6 +38,7 @@ const HeaderView = ({ menu }) => {
           size={60}
           toggled={isOpen}
           toggle={setOpen}
+          color={'#FFFFFF'}
           direction={"right"}
           onToggle={(toggled) => {
             if (toggled) {

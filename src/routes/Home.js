@@ -1,11 +1,12 @@
 import React from "react";
 import App from "../App";
+import PageFrame from "../layouts/pageFrame/PageFrame";
 
 const Home = () => {
   return (
-    <div>
+    <PageFrame>
       <App />
-    </div>
+    </PageFrame>
   );
 };
 

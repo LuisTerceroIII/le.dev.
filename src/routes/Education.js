@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from "../components/Header/Header";
+import PageFrame from "../layouts/pageFrame/PageFrame";
+import EducationSection from "../components/Education/EducationSection";
 
 const Education = () => {
     return (
-        <div>
-            <Header />
-            Education
-        </div>
+        <PageFrame>
+            <EducationSection />
+        </PageFrame>
     );
 };
 

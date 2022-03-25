@@ -1,21 +1,27 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import "./App.css";
 import LandingButton from "./components/Mobile/LandingButton/LandingButton";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import AnimatedText from "react-animated-text-content";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <p className={"title-landing"}> Luis Espinoza Web Developer </p>
+      <AnimatedText
+        className={"title-landing"}
+        animationType={"lights"}
+        type={"words"}
+        tag={'p'}
+        duration={4.1}
+      >
+        Luis Espinoza Web Developer
+      </AnimatedText>
       <LandingButton className={"landing-button"} text={"Explore"} />
-        <Fragment className={'background-images-home'} >
-            <img className={"moon"} src={"./moon.svg"} alt={"sun"} />
-            <img className={"sun"} src={"./sun3.svg"} alt={"sun"} />
-        </Fragment>
-
-        <Footer />
+      <Fragment className={"background-images-home"}>
+        <img className={"moon"} src={"./moon.svg"} alt={"sun"} />
+        <img className={"sun"} src={"./sun3.svg"} alt={"sun"} />
+      </Fragment>
     </div>
   );
 }

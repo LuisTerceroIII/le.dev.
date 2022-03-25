@@ -15,5 +15,6 @@
 .footer-copyright-disclaimer {
     color: #FFFFFF;
     font-family: 'Open Sans', serif;
-
+    font-size: clamp(2.5vw, 3vw,3.5vw);
+    align-self: center;
 }

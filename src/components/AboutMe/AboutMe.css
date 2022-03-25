@@ -1,15 +1,15 @@
 .about-me-main-container {
     display: flex;
     flex-direction: column;
-    background-color: #6ea59c;
+    background-color: rgba(238, 238, 180, 0.32);
     position: relative;
     min-height: 100vh;
 }
 
 .about-me-title {
     text-align: center;
-    font-size: 5.5vw;
-    font-family: 'Prata', serif;
+    font-size: clamp(4.5vw, 5.5vw,6vw);
+    font-family: 'Open Sans', sans-serif
 }
 .avatar-image-tilt {
     overflow: visible;
@@ -18,10 +18,24 @@
     padding-right: 5%;
     float: left;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .avatar-image-about-me {
-    max-width: 60vw;
+    max-width: 44ch;
+    width:45vw;
+    animation: sun-spin 50s infinite linear;
+}
+
+@keyframes sun-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+
 }
 .about-paragraph-right {
     font-size: 4vw;
