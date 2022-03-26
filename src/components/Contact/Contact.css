@@ -37,3 +37,7 @@
     transition: all .5s ease-in;
     background-color: #4a4b4a;
 }
+
+.contact-error-sending-email {
+    margin: 0 auto;
+}
