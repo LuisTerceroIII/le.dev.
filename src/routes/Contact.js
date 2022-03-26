@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from "../components/Header/Header";
+import ContactSection from "../components/Contact/ContactSection";
+import PageFrame from "../layouts/pageFrame/PageFrame";
 
 const Contact = () => {
     return (
-        <div>
-            <Header/>
-                Contact
-        </div>
+        <PageFrame>
+            <ContactSection/>
+        </PageFrame>
     );
 };
 

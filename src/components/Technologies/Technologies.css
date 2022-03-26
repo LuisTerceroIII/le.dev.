@@ -1,0 +1,25 @@
+.technologies-container {
+    background-color: rgba(238, 238, 180, 0.32);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.technologies-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 2.5%;
+    margin-bottom:25%;
+}
+.tech-logo {
+    max-width: 25vw;
+    cursor: pointer;
+
+}
+
+.tech-logo:hover {
+    transform: scale(1.3);
+}

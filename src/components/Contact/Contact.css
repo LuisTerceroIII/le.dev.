@@ -1,0 +1,39 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 126vh;
+    overflow: scroll;
+    margin-bottom: 5%;
+}
+
+.form-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 70%;
+    min-width: 70%;
+    margin: 0 auto;
+    row-gap: 10%;
+}
+
+.contact-button {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000000;
+    border: none;
+    width: 23vw;
+    height: 15vw;
+    display:inline-block;
+    font-family: 'Prata', serif;
+    font-size: 4vw;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffff;
+    z-index: 2;
+    transition: all .5s ease-in;
+}
+
+.contact-button:hover {
+    transition: all .5s ease-in;
+    background-color: #4a4b4a;
+}

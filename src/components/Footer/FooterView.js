@@ -6,7 +6,8 @@ const FooterView = () => {
         <footer className="footer-container">
 
             <h6 className="footer-copyright-disclaimer" >
-                © 2022 Copyright: Luis Espinoza.
+                © 2022 Copyright: Luis Espinoza.<br/>
+                luis.espinoza.na@gmail.com
             </h6>
 
         </footer>

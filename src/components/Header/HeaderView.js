@@ -6,11 +6,6 @@ import { Link } from "react-router-dom";
 
 const HeaderView = ({ menu }) => {
   const [isOpen, setOpen] = useState(false);
-
-  useEffect(() => {
-    console.log(isOpen);
-  }, [isOpen]);
-
   return (
     <header className={isOpen ? "header header-open" : "header"}>
       <Logo
@@ -40,13 +35,6 @@ const HeaderView = ({ menu }) => {
           toggle={setOpen}
           color={'#FFFFFF'}
           direction={"right"}
-          onToggle={(toggled) => {
-            if (toggled) {
-              console.log("is open");
-            } else {
-              console.log("isClose");
-            }
-          }}
         />
       </span>
     </header>
