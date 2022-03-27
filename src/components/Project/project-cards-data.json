@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Filoweb",
-      "description": "Dui eros morbi dapibus sapien rutrum euismod habitant, nunc pulvinar libero nam sagittis mollis, lacinia neque ultricies placerat ante nullam. Facilisis ultricies hac sociis facilisi gravida sed justo auctor, euismod himenaeos tincidunt praesent ante habitant suscipit. Faucibus penatibus mi turpis feugiat odio sapien mauris, justo curabitur aliquam dui aenean urna ac litora, parturient vestibulum nibh dictum cum primis.",
+      "description": "Dui eros morbi dapibus sapien rutrum euismod habitant, nunc pulvinar libero nam sagittis mollis, lacinia neque ultricies placerat ante nullam. Facilisis ultricies hac sociis facilisi gravida sed justo auctor.",
       "tags": ["Javascript", "React", "Css", "JSX"],
       "images": [
         "./proyectos/Webfilo/1.png",
@@ -15,6 +15,34 @@
         "./proyectos/Webfilo/8.png",
         "./proyectos/Webfilo/9.png",
         "./proyectos/Webfilo/10.png"
+      ]
+    },
+    {
+      "name": "Jardin Management Desktop",
+      "description": "Dui eros morbi dapibus sapien rutrum euismod habitant, nunc pulvinar libero nam sagittis mollis, lacinia neque ultricies placerat ante nullam. Facilisis ultricies hac sociis facilisi gravida sed justo auctor, euismod himenaeos tincidunt praesent ante habitant suscipit. Faucibus penatibus mi turpis feugiat odio sapien mauris, justo curabitur aliquam dui aenean urna ac litora, parturient vestibulum nibh dictum cum primis.",
+      "tags": ["Javascript", "React", "Css", "JSX","Java", "Spring Boot","JWT Token" , "PostgrestSql", "Amazon s3", "Heroku"],
+      "images": [
+        "./proyectos/JardinApp/web/1.png",
+        "./proyectos/JardinApp/web/2.png",
+        "./proyectos/JardinApp/web/3.png",
+        "./proyectos/JardinApp/web/4.png",
+        "./proyectos/JardinApp/web/5.png",
+        "./proyectos/JardinApp/web/6.png",
+        "./proyectos/JardinApp/web/7.png",
+        "./proyectos/JardinApp/web/8.png"
+        ]
+    },
+    {
+      "name": "Jardin Management Mobile",
+      "description": "Dui eros morbi dapibus .",
+      "tags": ["Javascript", "React", "Css", "JSX","Java", "Spring Boot", "PostgrestSql", "Amazon s3", "Heroku"],
+      "images": [
+        "./proyectos/JardinApp/mobile/1.jpeg",
+        "./proyectos/JardinApp/mobile/2.jpeg",
+        "./proyectos/JardinApp/mobile/3.jpeg",
+        "./proyectos/JardinApp/mobile/4.jpeg",
+        "./proyectos/JardinApp/mobile/5.jpeg",
+        "./proyectos/JardinApp/mobile/6.jpeg"
       ]
     }
   ]

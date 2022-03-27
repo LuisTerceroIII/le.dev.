@@ -4,6 +4,7 @@
     margin: 0 auto;
     border-radius: 20px;
     padding: 2%;
+    margin-bottom: 5%;
 }
 
 .slide-project-card {
@@ -15,6 +16,11 @@
 .project-card-image {
     object-fit: contain;
     max-width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    position: relative;
+
 }
 
 .project-name-project-card {
