@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "name": "Filoweb",
+      "description": "Dui eros morbi dapibus sapien rutrum euismod habitant, nunc pulvinar libero nam sagittis mollis, lacinia neque ultricies placerat ante nullam. Facilisis ultricies hac sociis facilisi gravida sed justo auctor, euismod himenaeos tincidunt praesent ante habitant suscipit. Faucibus penatibus mi turpis feugiat odio sapien mauris, justo curabitur aliquam dui aenean urna ac litora, parturient vestibulum nibh dictum cum primis.",
+      "tags": ["Javascript", "React", "Css", "JSX"],
+      "images": [
+        "./proyectos/Webfilo/1.png",
+        "./proyectos/Webfilo/2.png",
+        "./proyectos/Webfilo/3.png",
+        "./proyectos/Webfilo/4.png",
+        "./proyectos/Webfilo/5.png",
+        "./proyectos/Webfilo/6.png",
+        "./proyectos/Webfilo/7.png",
+        "./proyectos/Webfilo/8.png",
+        "./proyectos/Webfilo/9.png",
+        "./proyectos/Webfilo/10.png"
+      ]
+    }
+  ]
+}

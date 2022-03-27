@@ -1,10 +1,15 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import { useForm } from "react-hook-form";
 import TextField from "@mui/material/TextField";
 import ClockLoader from "react-spinners/ClockLoader";
 
-const ContactView = ({ sendEmail, refForm, sendingEmail, errorSendingEmail }) => {
+const ContactView = ({
+  sendEmail,
+  refForm,
+  sendingEmail,
+  errorSendingEmail,
+}) => {
   const {
     register,
     handleSubmit,
@@ -42,6 +47,8 @@ const ContactView = ({ sendEmail, refForm, sendingEmail, errorSendingEmail }) =>
         />
         {errors.email?.type === "required" &&
           "E-mail is required, please check that you have entered a valid address 😀"}
+        {errors.email?.type === "pattern" &&
+            "E-mail is required, please check that you have entered a valid address 😀"}
         <TextField
           type={"text"}
           label={"Subject"}
@@ -72,19 +79,28 @@ const ContactView = ({ sendEmail, refForm, sendingEmail, errorSendingEmail }) =>
         {errors.message?.type === "minLength" &&
           "Are you sure you don't want to say something else ? 👀"}
         {sendingEmail ? (
-            <ClockLoader color={'#9C27B0'} loading={sendingEmail} size={50} css={' display: block;\n' +
-                '  margin: 0 auto;\n' +
-                '  border-color: red;'}/>
+          <ClockLoader
+            color={"#9C27B0"}
+            loading={sendingEmail}
+            size={50}
+            css={
+              " display: block;\n" +
+              "  margin: 0 auto;\n" +
+              "  border-color: red;"
+            }
+          />
         ) : (
           <button type={"submit"} className={"contact-button"}>
             Send
           </button>
         )}
-          {errorSendingEmail ? (
-              <p className={'contact-error-sending-email'}>Error connecting with server 💥</p>
-          ) : (
-             ''
-          )}
+        {errorSendingEmail ? (
+          <p className={"contact-error-sending-email"}>
+            Error connecting with server 💥
+          </p>
+        ) : (
+          ""
+        )}
       </form>
     </section>
   );

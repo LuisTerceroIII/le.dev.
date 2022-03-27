@@ -1,0 +1,37 @@
+.project-card {
+    border: 2px solid #000000;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.slide-project-card {
+    margin: 0 auto;
+    min-height: 50vw;
+
+}
+
+.project-card-image {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.project-name-project-card {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.tags-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+.project-card-data {
+
+}
+
+.project-card-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(2.5vw,3.5vw,4vw);
+}

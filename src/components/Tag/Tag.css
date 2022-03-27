@@ -1,0 +1,21 @@
+.tag-container {
+    min-width: 80%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.94);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 253, 253);
+    transition: all .1s ease-in;
+    text-transform: lowercase;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+    font-size: clamp(2.5vw,3.5vw,4vw);
+}
+.tag-container:hover {
+    transform: scale(.9);
+}
