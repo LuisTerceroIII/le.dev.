@@ -32,3 +32,30 @@
     font-family: 'Prata', serif;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 850px) {
+
+    .specialities-container {
+        justify-content: flex-start;
+    }
+    .speciality-container {
+        min-width: 15vw;
+        max-width: 20vw;
+        min-height: 15vw;
+        max-height: 20vw;
+
+    }
+
+    .specialities {
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        min-width: 99%;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .speciality-container p {
+        font-size: 7vw;
+    }
+}

@@ -1,9 +1,11 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    height: 126vh;
+    height: 130vh;
     overflow: scroll;
     margin-bottom: 5%;
+    background-color: rgba(238, 238, 180, 0.32);
+
 }
 
 .form-contact {
@@ -25,7 +27,7 @@
     height: 15vw;
     display:inline-block;
     font-family: 'Prata', serif;
-    font-size: 4vw;
+
     cursor: pointer;
     border-radius: 5px;
     color: #ffffff;
@@ -40,4 +42,13 @@
 
 .contact-error-sending-email {
     margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+    .contact-button {
+        width: 9vw;
+        height: 4.5vw;
+        font-size: 2vw;
+        margin-bottom: 5%;
+    }
 }

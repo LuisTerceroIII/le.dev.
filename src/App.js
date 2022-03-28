@@ -15,7 +15,7 @@ function App() {
         tag={'p'}
         duration={4.1}
       >
-        Luis Espinoza Web Developer
+        Luis Espinoza Software Developer
       </AnimatedText>
       <LandingButton className={"landing-button"} text={"Explore"} />
       <Fragment className={"background-images-home"}>

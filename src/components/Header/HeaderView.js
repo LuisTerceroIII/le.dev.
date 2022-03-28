@@ -21,7 +21,7 @@ const HeaderView = ({ menu }) => {
         }
       >
         {menu.map((item, key) => (
-          <li key={key + 10}>
+          <li key={key + 10} className={'menu-item'}>
             <Link to={`${item.route}`} key={key}>
               {item.htmlText}
             </Link>

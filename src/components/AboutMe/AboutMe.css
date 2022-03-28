@@ -22,8 +22,8 @@
 }
 
 .avatar-image-about-me {
-    max-width: 44ch;
-    width:45vw;
+    max-width:45vw;
+    min-width:45vw;
     animation: sun-spin 50s infinite linear;
 }
 
@@ -46,4 +46,32 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     white-space: pre-wrap;
+}
+
+@media screen and (min-width: 700px) {
+    .about-me-main-container {
+       max-height: fit-content;
+    }
+    .about-me-section-container {
+        margin: 0 auto;
+    }
+    .avatar-image-tilt {
+        margin-left: 0;
+    }
+    .avatar-image-about-me {
+        max-width:25vw;
+        min-width:25vw;
+
+    }
+    .about-paragraph-right {
+        font-size: clamp(2vw,2vw,2vw);
+        line-height: 4vw;
+        width: 50ch;
+        padding: 0% 5% 0% 5%;
+    }
+    .about-me-title {
+        text-align: center;
+        font-size: clamp(3vw, 4vw, 5vw);
+    }
+
 }

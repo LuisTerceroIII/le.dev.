@@ -19,3 +19,10 @@
 .tag-container:hover {
     transform: scale(.9);
 }
+@media screen and (min-width: 750px) {
+    .tag-container  {
+        font-size: clamp(1.2vw,1.3vw,1.5vw);
+        min-height: 50px;
+    }
+
+}

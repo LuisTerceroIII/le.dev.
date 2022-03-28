@@ -44,6 +44,16 @@
         "./proyectos/JardinApp/mobile/5.jpeg",
         "./proyectos/JardinApp/mobile/6.jpeg"
       ]
+    },
+    {
+      "name": "Your Lists App",
+      "description": "Dui eros morbi dapibus sapien rutrum euismod habitant, nunc pulvinar libero nam sagittis mollis, lacinia neque ultricies placerat ante nullam. Facilisis ultricies hac sociis ",
+      "tags": ["Javascript", "React","Material UI",  "Css", "JSX","Java", "Spring Boot", "PostgrestSql", "Heroku"],
+      "images": [
+        "./proyectos/YourListsApp/1.png",
+        "./proyectos/YourListsApp/2.png",
+        "./proyectos/YourListsApp/3.png"
+      ]
     }
   ]
 }

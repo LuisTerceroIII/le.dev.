@@ -23,3 +23,20 @@
 .tech-logo:hover {
     transform: scale(1.3);
 }
+
+@media screen and (min-width: 600px) {
+    .technologies-container {
+        background-color: rgba(238, 238, 180, 0.32);
+        height: 100vh;
+        overflow: scroll;
+    }
+    .technologies-logos {
+        grid-template-columns: .5fr .5fr .5fr;
+        row-gap: 2.5%;
+        column-gap: 10%;
+        margin-bottom:15%;
+    }
+    .tech-logo {
+        max-width: 8vw;
+    }
+}

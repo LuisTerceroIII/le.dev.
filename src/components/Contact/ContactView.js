@@ -46,9 +46,9 @@ const ContactView = ({
           })}
         />
         {errors.email?.type === "required" &&
-          "E-mail is required, please check that you have entered a valid address 😀"}
+          "E-mail is required 😀"}
         {errors.email?.type === "pattern" &&
-            "E-mail is required, please check that you have entered a valid address 😀"}
+            "Please check that you have entered a valid address 👀"}
         <TextField
           type={"text"}
           label={"Subject"}

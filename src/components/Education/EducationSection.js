@@ -19,16 +19,16 @@ const EducationSection = () => {
     ),
     newStudy(
       "./utn.png",
-      "Universidad Tecnologica Nacional",
+      "Universidad Tecnológica Nacional",
       "2019",
-      "Experto universitario en programacion con especializacion en Java",
+      "Experto universitario en programación con especialización en Java",
         "https://sceu.frba.utn.edu.ar/e-learning/detalle/experto-universitario/1745/experto-universitario-en-programacion-con-especializacion-en-un-lenguaje"
     ),
     newStudy(
       "./filo.png",
       "Universidad de Buenos Aires (UBA)",
       "2015-2018",
-      "Licenciatura en Filosofia Practica",
+      "Licenciatura en Filosofía Práctica",
       "http://filosofia.filo.uba.ar/"
     ),
   ];
