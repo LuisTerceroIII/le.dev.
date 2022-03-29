@@ -11,7 +11,7 @@ const AboutMeView = () => {
                 <h2 className={'about-me-title'}>About me</h2>
                 <div className={'about-me-content-container'}>
                     <Tilt options={{max: 35, perspective: 1000}} className={"avatar-image-tilt"}>
-                        <img src={"./sun2.svg"} alt={"avatar-luis-espinoza"} className={'avatar-image-about-me'}/>
+                        <img src={"./sun3.svg"} alt={"avatar-luis-espinoza"} className={'avatar-image-about-me'}/>
                     </Tilt>
                     <p className={'about-paragraph-right'}>{lorem}</p>
                 </div>
