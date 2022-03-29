@@ -9,10 +9,9 @@
     padding-top: 3%;
     transition: all 1s ease-out;
     align-content: center;
-    position: sticky;
+    position: fixed;
     min-width: 100%;
     overflow: visible;
-
 }
 
 .header-open {
@@ -20,6 +19,7 @@
     height: 100vh;
     transition: height 1s ease-in;
     overflow: scroll;
+
 
 }
 
@@ -88,9 +88,17 @@
     color: white;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
+
+    .header {
+        height: 5vh;
+        padding-bottom: 1%;
+    }
+    .header-open {
+        height: 100vh;
+    }
     .logo {
-        font-size: 3vw;
+        font-size: 25px;
     }
     .hamburger-button {
         z-index: 2;
@@ -101,7 +109,16 @@
     }
 
     .menu-items-container {
-        font-size: 5vw;
+        font-size: clamp(4vw, 5vw, 6vw);
         line-height: 8vw;
+    }
+
+    .menu-items-container a::after{
+        height: 5px;
+        left: 0;
+        align-self: flex-start;
+        transform: scaleX(0);
+        background-color: #3B6C8F;
+
     }
 }

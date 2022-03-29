@@ -7,6 +7,7 @@
 }
 
 .about-me-title {
+    margin-top: 35%;
     text-align: center;
     font-size: clamp(4.5vw, 5.5vw,6vw);
     font-family: 'Open Sans', sans-serif
@@ -49,6 +50,9 @@
 }
 
 @media screen and (min-width: 700px) {
+    .about-me-title {
+        margin-top: 10%;
+    }
     .about-me-main-container {
        max-height: fit-content;
     }

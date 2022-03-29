@@ -5,7 +5,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    position: relative;
+
     right: 0;
     bottom: 0;
     left: 0;
@@ -21,12 +21,14 @@
 }
 
 @media screen and (min-width: 600px) {
+
+
     .footer-container {
         max-height: 15vh;
         bottom: -20px;
     }
     .footer-copyright-disclaimer {
-        font-size: clamp(1.1vw, 1.3vw,1.5vw);
+        font-size: 20px;
         align-self: center;
         text-align: center;
     }

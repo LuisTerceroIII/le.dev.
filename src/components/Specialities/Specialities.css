@@ -33,10 +33,11 @@
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 650px) {
 
     .specialities-container {
         justify-content: flex-start;
+        height: 90vh;
     }
     .speciality-container {
         min-width: 15vw;
