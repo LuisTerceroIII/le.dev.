@@ -11,10 +11,12 @@ const AboutMeView = () => {
         <div className={'about-me-main-container'}>
             <section className={"about-me-section-container"}>
                 <h2 className={'about-me-title'}>About me</h2>
-                <Tilt options={{max: 35, perspective: 1000}} className={"avatar-image-tilt"}>
-                    <img src={"./sun2.svg"} alt={"avatar-luis-espinoza"} className={'avatar-image-about-me'}/>
-                </Tilt>
-                <p className={'about-paragraph-right'}>{lorem}</p>
+                <div className={'about-me-content-container'}>
+                    <Tilt options={{max: 35, perspective: 1000}} className={"avatar-image-tilt"}>
+                        <img src={"./sun2.svg"} alt={"avatar-luis-espinoza"} className={'avatar-image-about-me'}/>
+                    </Tilt>
+                    <p className={'about-paragraph-right'}>{lorem}</p>
+                </div>
             </section>
         </div>
     );

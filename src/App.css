@@ -6,6 +6,7 @@
     overflow: hidden;
     z-index: 0;
   }
+
   .title-landing {
     margin-left: 5%;
     color: #000000;
@@ -125,7 +126,7 @@
 
     @media (prefers-reduced-motion: no-preference) {
       .sun {
-        -webkit-animation: sun-spin-up-desktop infinite 50s linear;
+        -webkit-animation: sun-spin-up-desktop infinite 51s linear;
       }
       .moon {
         -webkit-animation: moon-spin-down-desktop infinite 50s linear;
@@ -135,15 +136,15 @@
     @keyframes sun-spin-up-desktop {
       0% {
         transform: rotate(0deg);
-        top: 0;
+        top: 20%;
       }
       50% {
         transform: rotate(360deg);
-        top: -240%;
+        top: -170%;
       }
       100% {
         transform: rotate(0deg);
-        top: 0;
+        top: 20%;
       }
 
     }
@@ -151,7 +152,7 @@
     @keyframes moon-spin-down-desktop {
       0% {
         transform: rotate(0deg);
-        top: -130%;
+        top: -110%;
       }
       50% {
         transform: rotate(360deg);
@@ -159,7 +160,7 @@
       }
       100% {
         transform: rotate(0deg);
-        top: -130%;
+        top: -110%;
       }
     }
   }

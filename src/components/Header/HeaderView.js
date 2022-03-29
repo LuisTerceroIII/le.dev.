@@ -20,17 +20,20 @@ const HeaderView = ({ menu }) => {
             : "menu-items-container"
         }
       >
-        {menu.map((item, key) => (
-          <li key={key + 10} className={'menu-item'}>
-            <Link to={`${item.route}`} key={key}>
-              {item.htmlText}
-            </Link>
-          </li>
-        ))}
+      <ul className={'list-menu-container'}>
+          {menu.map((item, key) => (
+              <li key={key + 10} className={'menu-item'}>
+                  <Link to={`${item.route}`} key={key}>
+                      {item.htmlText}
+                  </Link>
+              </li>
+          ))}
+      </ul>
+
       </nav>
       <span className={"hamburger-button"}>
         <Hamburger
-          size={60}
+          size={40}
           toggled={isOpen}
           toggle={setOpen}
           color={'#FFFFFF'}

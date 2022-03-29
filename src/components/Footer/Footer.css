@@ -11,6 +11,15 @@
     left: 0;
     z-index: 3;
 }
+.footer-container:link {
+    color: #FFFFFF;
+}
+.footer-link-name {
+    color: #FFFFFF;
+}
+.footer-link-name:visited {
+    color: #FFFFFF;
+}
 
 .footer-copyright-disclaimer {
     color: #FFFFFF;
