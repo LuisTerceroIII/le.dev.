@@ -42,7 +42,7 @@ const ContactView = ({
           name={"email"}
           {...register("email", {
             required: true,
-            pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,10})+$/,
+            pattern: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/,
           })}
         />
         {errors.email?.type === "required" &&
