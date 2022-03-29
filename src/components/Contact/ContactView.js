@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Contact.css";
 import { useForm } from "react-hook-form";
 import TextField from "@mui/material/TextField";

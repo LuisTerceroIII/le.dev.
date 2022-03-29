@@ -1,5 +1,4 @@
-import React, {Fragment, useEffect, useState} from 'react';
-import Hamburger from "hamburger-react";
+import React from 'react';
 import {Link} from "react-router-dom";
 
 const Logo = ({containerClass,logoClass}) => {

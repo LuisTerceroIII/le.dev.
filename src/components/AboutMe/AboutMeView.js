@@ -1,8 +1,6 @@
 import React from 'react';
-import Header from "../Header/Header";
 import Tilt from "react-tilt/dist/tilt";
 import './AboutMe.css';
-import Footer from "../Footer/Footer";
 
 
 const AboutMeView = () => {

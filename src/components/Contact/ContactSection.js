@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import ContactView from "./ContactView";
 import emailjs from "@emailjs/browser";
 const ContactSection = () => {
