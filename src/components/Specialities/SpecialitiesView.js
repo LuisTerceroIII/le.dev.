@@ -8,7 +8,7 @@ const SpecialitiesView = ({ specialities }) => {
       <h2 className={"about-me-title"}>Specialities</h2>
         <section className={'specialities'}>
             {specialities.map((speciality, key) => (
-                <Tilt className={"speciality-container"}>
+                <Tilt key={key} className={"speciality-container"}>
                     <AnimatedText
                         className={"title-landing"}
                         animationType={"throw"}

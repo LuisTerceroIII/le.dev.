@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
@@ -14,7 +13,7 @@ import Contact from "./routes/Contact";
 import NotFound from "./components/404/NotFound";
 
 ReactDOM.render(
-  <React.StrictMode>
+
     <BrowserRouter>
       <Routes>
         <Route path={"/"} element={<Home />} />
@@ -27,7 +26,7 @@ ReactDOM.render(
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
+  ,
   document.getElementById("root")
 );
 

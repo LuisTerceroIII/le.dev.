@@ -21,8 +21,8 @@ const ProjectCardView = ({images, projectName, description, tags}) => {
                 }}
                 hasAutoplayProgress
             >
-                {images.map((slide) => (
-                    <SplideSlide key={slide.src}>
+                {images.map((slide,key) => (
+                    <SplideSlide key={key}>
                         <img src={slide} alt={slide.slice(10)} className={'project-card-image'}/>
                     </SplideSlide>
                 ))}
@@ -31,7 +31,7 @@ const ProjectCardView = ({images, projectName, description, tags}) => {
 
                 <section className={'tags-container'}>
                     {tags.map((tag, key) => (
-                        <Tag content={tag}/>
+                        <Tag key={key} content={tag}/>
                     ))}
                 </section>
                 <p className={'project-card-description'}>{description}</p>
