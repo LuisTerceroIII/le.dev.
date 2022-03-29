@@ -12,6 +12,7 @@ const FooterView = () => {
             "https://www.linkedin.com/in/luis-h%C3%A9ctor-espinoza-navarrete-bbb7b3140/"
           }
             target={'_blank'}
+            rel="noopener noreferrer"
         >
           Luis Espinoza.
         </a>

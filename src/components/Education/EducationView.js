@@ -14,7 +14,7 @@ const EducationView = ({education}) => {
                         <p className={"school-name"}>{study.school}</p>
                         <p className={"years-duration"}>{study.years}</p>
                         <p className={"career-name"}>{study.title}</p>
-                        <a href={study.link} className={"education-school-link"} target={"_blank"}>Ver más</a>
+                        <a href={study.link} className={"education-school-link"} target={"_blank"} rel="noopener noreferrer">Ver más</a>
                     </section>
                 </section>
             ))}
