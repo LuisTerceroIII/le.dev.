@@ -11,6 +11,7 @@ import Projects from "./routes/Projects";
 import Specialities from "./routes/Specialities";
 import Technologies from "./routes/Technologies";
 import Contact from "./routes/Contact";
+import NotFound from "./components/404/NotFound";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path={"/specialities"} element={<Specialities />} />
         <Route path={"/technologies"} element={<Technologies />} />
         <Route path={"/contact"} element={<Contact />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

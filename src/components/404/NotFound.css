@@ -1,0 +1,44 @@
+.not-found-main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgba(238, 238, 180, 0.32);
+    overflow: hidden;
+}
+.not-found-sun {
+    max-width: 40vw;
+    min-width: 40vw;
+    align-self: flex-end;
+    position: relative;
+    top: 15%;
+    z-index: 1;
+
+}
+
+.not-found-number {
+    max-width: 3ch;
+    align-self: center;
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Prata', serif;
+    margin: 0 auto;
+    z-index: 2;
+}
+.not-found-message {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Prata', serif;
+    z-index: 2;
+
+}
+
+.not-found-moon {
+    max-width: 40vw;
+    min-width: 40vw;
+    align-self: flex-start;
+    position: relative;
+    bottom: 15%;
+}
