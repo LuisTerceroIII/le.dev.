@@ -1,6 +1,6 @@
 import React from 'react';
 import PageFrame from "../layouts/pageFrame/PageFrame";
-import EducationSection from "../components/Education/EducationSection";
+import EducationSection from "../components/sections/Education/EducationSection";
 
 const Education = () => {
     return (

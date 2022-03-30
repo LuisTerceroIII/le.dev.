@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import LandingButton from "./components/Mobile/LandingButton/LandingButton";
+import LandingButton from "./components/Atoms/LandingButton/LandingButton";
 import AnimatedText from "react-animated-text-content";
 
 function App() {

@@ -13,6 +13,7 @@
     justify-items: center;
     row-gap: 2.5%;
     margin-bottom:31%;
+    align-items: center;
 }
 .tech-logo {
     max-width: 25vw;

@@ -1,6 +1,6 @@
 import React from 'react';
 import PageFrame from "../layouts/pageFrame/PageFrame";
-import TechnologiesSection from "../components/Technologies/TechnologiesSection";
+import TechnologiesSection from "../components/sections/Technologies/TechnologiesSection";
 
 const Technologies = () => {
     return (

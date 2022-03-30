@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectCard.css';
 import {Splide, SplideSlide} from "@splidejs/react-splide";
 import '@splidejs/splide/dist/css/splide.min.css';
-import Tag from "../Tag/Tag";
+import Tag from "../../Atoms/Tag/Tag";
 
 const ProjectCardView = ({images, projectName, description, tags}) => {
     return (

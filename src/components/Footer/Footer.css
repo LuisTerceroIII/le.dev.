@@ -31,7 +31,7 @@
 .github-link {
     margin-left: 3%;
     position: relative;
-    top: 10%;
+    top: 5%;
 }
 .github {
     width: 18px;
@@ -55,7 +55,7 @@
         top: 5%;
     }
     .github {
-        width: 22px;
+        width: 18px;
         margin: 0 auto;
     }
 }

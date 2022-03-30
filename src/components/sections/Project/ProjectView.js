@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectCard from "../../organisms/ProjectCard/ProjectCard";
 
 const ProjectView = ({dataCard}) => {
     return (

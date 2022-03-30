@@ -98,7 +98,19 @@
 
 @media screen and (min-width: 500px) {
 
+    .header {
+        min-height: 4vh;
+        max-height: 5vh;
+    }
 
+    .header-open {
+        background-color: #080908;
+        min-height: 100vh;
+        transition: all 1s ease-in;
+        overflow: scroll;
+
+
+    }
     .list-menu-container {
         padding-bottom: 5%;
         list-style: none;
