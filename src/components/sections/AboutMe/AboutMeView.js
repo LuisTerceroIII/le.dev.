@@ -4,7 +4,9 @@ import './AboutMe.css';
 
 
 const AboutMeView = () => {
-    const lorem = 'Lorem ipsum dolor sit amet. In magni nulla qui nihil minus aut molestias voluptatem. Qui consequatur fuga et sint voluptate in consectetur autem et fugiat amet et unde fugiat qui asperiores maiores. Qui necessitatibus temporibus sed explicabo provident non asperiores nihil sed internos illum ea amet voluptatem? Eum blanditiis dolor aut amet obcaecati ut galisum cupiditate est quibusdam eaque ea eligendi voluptatem ut aliquid exercitationem ultima. '
+    const aboutMe = 'I am Luis Espinoza, an optimistic, curious, problem solver and creative person, and I develop software because it feels amazing to create something new and useful.\n' +
+        'In the last few years I have learned about computer architecture. algorithm, data structure, paradigms, networks, building process, limits of software, operation systems, best practices and more.\n' +
+        'In the time I\'ve been developing I\'ve created mini-games, institutional software and web sites, and I hope this doesn\'t stop.'
     return (
         <div className={'about-me-main-container'}>
             <section className={"about-me-section-container"}>
@@ -13,7 +15,7 @@ const AboutMeView = () => {
                     <Tilt options={{max: 35, perspective: 1000}} className={"avatar-image-tilt"}>
                         <img src={"./sun3.svg"} alt={"avatar-luis-espinoza"} className={'avatar-image-about-me'}/>
                     </Tilt>
-                    <p className={'about-paragraph-right'}>{lorem}</p>
+                    <p className={'about-paragraph-right'}>{aboutMe}</p>
                 </div>
             </section>
         </div>
