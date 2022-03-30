@@ -15,6 +15,9 @@ const TechnologiesSection = () => {
     "./icons/html5.png",
       "./icons/reactg(1).png",
       "./icons/gatsby.png",
+      "./icons/heroku.png",
+      "./icons/amazonwebservices.png",
+      "./icons/netlify.svg"
 
   ];
   return <TechnologiesView logos={logos} />;

@@ -28,7 +28,15 @@
     align-self: center;
     text-align: center;
 }
-
+.github-link {
+    margin-left: 3%;
+    position: relative;
+    top: 10%;
+}
+.github {
+    width: 18px;
+    margin: 0 auto;
+}
 @media screen and (min-width: 600px) {
 
 
@@ -41,4 +49,22 @@
         align-self: center;
         text-align: center;
     }
+    .github-link {
+        margin-left: 3%;
+        position: relative;
+        top: 5%;
+    }
+    .github {
+        width: 22px;
+        margin: 0 auto;
+    }
 }
+
+.github:hover {
+    opacity: .8;
+}
+.footer-link-name:hover {
+    opacity: .8;
+}
+
+

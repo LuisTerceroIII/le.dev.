@@ -5,7 +5,7 @@ const EducationView = ({education}) => {
     return (
         <section className={"education-main-container"}>
             <h2 className={'about-me-title'}>Education</h2>
-            {education.reverse().map((study, key) => (
+            {education.map((study, key) => (
                 <section key={key+100} className={"education-card-container"}>
                     <Tilt>
                         <img  src={study.imageURL} alt={study.school} className={"school-image"}/>
