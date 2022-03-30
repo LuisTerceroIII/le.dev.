@@ -121,9 +121,11 @@
     .hamburger-button {
         z-index: 2;
         position: relative;
-        grid-column: 4 / 4;
+        grid-column: 4 / 5;
         grid-row: 1 / 2;
         align-self: center;
+        max-width: fit-content;
+        justify-self: center;
     }
 
     .menu-items-container {
