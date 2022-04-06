@@ -10,12 +10,12 @@ const EducationView = ({education}) => {
                     <Tilt>
                         <img  src={study.imageURL} alt={study.school} className={"school-image"}/>
                     </Tilt>
-                    <section  className={"education-item-description"}>
+                    <article  className={"education-item-description"}>
                         <p className={"school-name"}>{study.school}</p>
                         <p className={"years-duration"}>{study.years}</p>
                         <p className={"career-name"}>{study.title}</p>
                         <a href={study.link} className={"education-school-link"} target={"_blank"} rel="noopener noreferrer">Lear more</a>
-                    </section>
+                    </article>
                 </section>
             ))}
         </section>

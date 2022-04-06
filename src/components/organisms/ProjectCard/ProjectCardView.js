@@ -6,7 +6,7 @@ import Tag from "../../Atoms/Tag/Tag";
 
 const ProjectCardView = ({images, projectName, description, tags}) => {
     return (
-        <div className="project-card">
+        <section className="project-card">
             <h2 className={'project-name-project-card'}>{projectName}</h2>
             <Splide
                 className={'slide-project-card'}
@@ -27,17 +27,16 @@ const ProjectCardView = ({images, projectName, description, tags}) => {
                     </SplideSlide>
                 ))}
             </Splide>
-            <div className={'project-card-data'}>
-
+            <section className={'project-card-data'}>
                 <section className={'tags-container'}>
                     {tags.map((tag, key) => (
                         <Tag key={key} content={tag}/>
                     ))}
                 </section>
                 <p className={'project-card-description'}>{description}</p>
-            </div>
+            </section>
 
-        </div>
+        </section>
     );
 };
 

@@ -105,13 +105,13 @@
       min-height: 140vh;
     }
     .title-landing {
-      margin-top: 15%;
+      margin-top: 10%;
       font-size: clamp(70px, 100px, 120px);
       width: 12ch;
     }
 
     .sun, .moon {
-      max-width: 40%;
+      max-width: 45%;
       left: 10%;
     }
     .landing-button {
@@ -122,6 +122,12 @@
       height: 4.5vw;
       font-size: clamp(18px, 19px, 20px);
       margin-bottom: 5%;
+      transition: background-color .3s ease-out;
+    }
+
+    .landing-button:hover {
+      background-color: #4a4b4a;
+      transition: background-color .3s ease-out;
     }
 
     @media (prefers-reduced-motion: no-preference) {

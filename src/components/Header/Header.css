@@ -101,6 +101,7 @@
     .header {
         min-height: 4vh;
         max-height: 5vh;
+        padding: 1%;
     }
 
     .header-open {
