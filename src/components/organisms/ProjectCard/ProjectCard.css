@@ -10,7 +10,7 @@
 .slide-project-card {
     margin: 0 auto;
     min-height: 50vw;
-
+    cursor: grab;
 }
 
 .project-card-image {

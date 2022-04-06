@@ -8,7 +8,7 @@
     border: 1px solid rgb(253, 253, 253);
     transition: all .1s ease-in;
     text-transform: lowercase;
-    cursor: pointer;
+    cursor: default;
     display: flex;
     justify-content: center;
     align-items: center;

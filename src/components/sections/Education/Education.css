@@ -19,7 +19,7 @@
     width: 30vw;
     object-fit: contain;
     margin-left: 5%;
-    cursor: pointer;
+    cursor: default;
 }
 
 .education-item-description {

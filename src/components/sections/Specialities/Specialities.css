@@ -5,7 +5,7 @@
     background-color: rgba(238, 238, 180, 0.32);
     height: 100vh;
     align-items: center;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .speciality-container {
@@ -20,7 +20,7 @@
     border-radius: 50%;
     margin-bottom: 5%;
     background-color: #e8e370;
-    cursor: pointer;
+    cursor: default;
 
 }
 
