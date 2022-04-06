@@ -6,7 +6,7 @@ import './AboutMe.css';
 const AboutMeView = ({about}) => {
 
     return (
-        <section className={'about-me-main-container'}>
+
             <section className={"about-me-section-container"}>
                 <h2 className={'about-me-title'}>About me</h2>
                 <article className={'about-me-content-container'}>
@@ -16,7 +16,6 @@ const AboutMeView = ({about}) => {
                     <p className={'about-paragraph-right'}>{about}</p>
                 </article>
             </section>
-        </section>
     );
 };
 

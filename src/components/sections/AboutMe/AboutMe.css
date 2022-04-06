@@ -1,7 +1,6 @@
-.about-me-main-container {
+.about-me-section-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: rgba(238, 238, 180, 0.32);
     position: relative;
     min-height: 100vh;
@@ -29,16 +28,6 @@
     animation: sun-spin 50s infinite linear;
 }
 
-@keyframes sun-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-
-
-}
 .about-paragraph-right {
     font-size: 4vw;
     padding: 0% 10% 0% 10%;
@@ -49,41 +38,36 @@
 
 }
 
-@media screen and (min-width: 600px) {
-    .about-me-title {
-        margin-top: 10%;
+@keyframes sun-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 
-    .about-me-section-container {
-        align-items: center;
+}
+
+
+@media screen and (min-width: 700px) {
+    .about-me-title {
+        margin-top: 7%;
+        text-align: center;
+        font-size: clamp(3vw, 4vw, 5vw);
     }
-    .avatar-image-tilt {
-        margin-left: 0;
-        align-self: center;
-    }
+
+
     .avatar-image-about-me {
         max-width:23vw;
         min-width:23vw;
 
     }
-    .about-me-content-container {
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-items: center;
-        min-height: 80vh;
-    }
+
     .about-paragraph-right {
-        font-size: clamp(2vw,2vw,2vw);
+        font-size: clamp(2.4vw,2.3vw,2.5vw);
         line-height: 4vw;
-        width: 50ch;
-        padding: 0% 25% 0% 0%;
+        max-width: 80ch;
         align-self: center;
-    }
-    .about-me-title {
-        text-align: center;
-        font-size: clamp(3vw, 4vw, 5vw);
     }
 
 }
