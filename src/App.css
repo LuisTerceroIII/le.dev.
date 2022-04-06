@@ -100,14 +100,16 @@
     top: -120%;
   }
 }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 600px) {
     .App {
       min-height: 140vh;
+      overflow: hidden;
     }
     .title-landing {
       margin-top: 10%;
       font-size: clamp(70px, 100px, 120px);
-      width: 12ch;
+      max-width: 12ch;
+      overflow-wrap: break-word;
     }
 
     .sun, .moon {
