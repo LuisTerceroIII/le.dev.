@@ -1,11 +1,12 @@
 import React from "react";
 import "./Footer.css";
 
-const FooterView = () => {
+const FooterView = ({year}) => {
+
   return (
     <footer className="footer-container">
       <h6 className="footer-copyright-disclaimer">
-        © 2022 Copyright:{" "}
+        © {year} Copyright:{" "}
         <a
           className={"footer-link-name"}
           href={
