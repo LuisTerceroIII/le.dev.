@@ -4,35 +4,50 @@
     min-height: 80vh;
     justify-content: space-around;
     background-color: rgba(238, 238, 180, 0.32);
+    align-items: center;
+
 }
 .education-card-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    width: 70%;
+    padding: 2%;
+    background-color: #F1F1E9D1;
+    box-shadow: 1px 7px 36px -20px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 1px 7px 36px -20px rgba(0,0,0,0.66);
+    -moz-box-shadow: 1px 7px 36px -20px rgba(0,0,0,0.66);
 }
-
-
 .school-image {
-    height: 30vw;
-    width: 30vw;
+    width: 200px;
     object-fit: contain;
     margin-left: 5%;
     cursor: default;
 }
 
 .education-item-description {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
-    font-size: clamp(4.5vw, 5vw,5.5vw);
+    font-size: 20px;
     width: 20ch;
     overflow: visible;
 }
 
 .school-name {
-    font-weight: bolder;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.years-duration {
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+.career-name {
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
 
 .education-school-link {
@@ -45,24 +60,19 @@
     font-weight: 550;
 }
 
-@media screen and (min-width: 500px) {
-    .education-main-container {
-        align-items: center;
-    }
+@media screen and (max-width: 758px) {
     .education-card-container {
-        justify-content: space-evenly;
-        padding: 2%;
-        border: 1px solid #696868;
-        border-radius: 20px;
-        width: 70%;
+        flex-direction: column;
+        width: fit-content;
+        padding: 5%;
+  
     }
-
     .school-image {
-        height: 15vw;
-        width: 15vw;
+        width: 150px;
+        margin-left: 0;
     }
     .education-item-description {
-        font-size: clamp(1.7vw,1.8vw,2.2vw);
+        font-size: 18px;
     }
 
 
