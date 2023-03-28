@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Education.css"
-import Tilt from "react-tilt/dist/tilt";
+import Tilt from 'react-parallax-tilt'
 const EducationView = ({education}) => {
     return (
         <section className={"education-main-container"}>

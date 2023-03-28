@@ -1,7 +1,8 @@
 import React from "react";
 import "./Specialities.css";
-import Tilt from "react-tilt/dist/tilt";
+import Tilt from 'react-parallax-tilt';
 import AnimatedText from "react-animated-text-content";
+
 const SpecialitiesView = ({ specialities }) => {
   return (
     <section className={"specialities-container"}>

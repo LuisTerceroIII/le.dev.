@@ -1,6 +1,6 @@
 import React from 'react';
 import './Technologies.css'
-import Tilt from "react-tilt/dist/tilt";
+import Tilt from 'react-parallax-tilt';
 
 const TechnologiesView = ({logos}) => {
     return (

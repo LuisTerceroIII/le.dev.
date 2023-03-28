@@ -2,7 +2,7 @@ import React from 'react';
 import SpecialitiesView from "./SpecialitiesView";
 
 const SpecialitiesSection = () => {
-    const specialities = ['front end', 'back end', 'full stack','Java Dev'];
+    const specialities = ['front end', 'back end', 'full stack','Mobile App','Java Dev'];
     return (
        <SpecialitiesView specialities={specialities}/>
     );
