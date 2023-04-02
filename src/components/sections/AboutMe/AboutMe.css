@@ -1,7 +1,7 @@
 .about-me-section-container {
     display: flex;
     flex-direction: column;
-    background-color: rgba(238, 238, 180, 0.32);
+    background-color: var(--white);
     position: relative;
     min-height: 100vh;
 }
@@ -39,8 +39,10 @@
     padding: 0% 10% 0% 10%;
     width: auto;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--content);
     font-weight: 400;
+    color: var(--hardGrey);
+    margin-bottom: 200px;
 }
 
 @keyframes sun-spin {
