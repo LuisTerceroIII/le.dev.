@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Hybeans App",
-      "description": "React native",
+      "description": "Contributed to the development of various key functionalities of the application, including login, password recovery, account validation, multiple profile types, feeds, notifications, configuration menus, bookings, product sales, hiring, and tour generation using map services, and much more.",
       "tags": ["React Native", "Typescript", "MST", "Firebase"],
       "images": [
         "./proyectos/hyApp/1.png",
@@ -50,6 +50,26 @@
         "./proyectos/JardinApp/web/8.png"
         ]
     },
+    {
+      "name": "Hybeans Web",
+      "description": "As part of my contributions to the continuous development of the Hybeans website, I also played a key role in implementing various functionalities of the application. These included profile types, bookings, the checkout process, landing page, and more.",
+      "tags": ["React", "Typescript", "MST", "Firebase"],
+      "images": [
+        "./proyectos/hyWeb/1.png",
+        "./proyectos/hyWeb/2.png",
+        "./proyectos/hyWeb/3.png",
+        "./proyectos/hyWeb/4.png",
+        "./proyectos/hyWeb/5.png",
+        "./proyectos/hyWeb/6.png",
+        "./proyectos/hyWeb/7.png",
+        "./proyectos/hyWeb/8.png",
+        "./proyectos/hyWeb/9.png",
+        "./proyectos/hyWeb/10.png",
+        "./proyectos/hyWeb/11.png",
+        "./proyectos/hyWeb/12.png"
+      ]
+    },
+
     {
       "name": "Your Lists App",
       "description": "Web application for personal use created to use lists, as reminders, as a to-do list, as steps for recipes, etc, anything you can think of. In it you can manage the lists in folders to differentiate and order them.",
