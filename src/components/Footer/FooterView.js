@@ -5,7 +5,7 @@ const FooterView = ({year}) => {
 
   return (
     <footer className="footer-container">
-      <h6 className="footer-copyright-disclaimer">
+      <p className="footer-copyright-disclaimer">
         © {year} Copyright:{" "}
         <a
           className={"footer-link-name"}
@@ -27,7 +27,7 @@ const FooterView = ({year}) => {
         >
           <img className={"github"} src={"./github.png"} alt={"github"} />
         </a>
-      </h6>
+      </p>
     </footer>
   );
 };

@@ -1,6 +1,5 @@
 .footer-container {
-    min-width: 100%;
-    max-height: 12vh;
+    height: 65px;
     background-color: rgba(0, 0, 0, 0.97);
     display: flex;
     align-content: center;
@@ -21,7 +20,7 @@
 }
 
 .footer-copyright-disclaimer {
-    color: #FFFFFF;
+    color: var(--white);
     font-family: 'Open Sans', serif;
     font-size: clamp(2.5vw, 3vw,3.5vw);
     align-self: center;
