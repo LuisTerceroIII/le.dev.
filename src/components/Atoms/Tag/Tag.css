@@ -14,7 +14,7 @@
     align-items: center;
     font-weight: bolder;
     color: white;
-    font-size: clamp(2.5vw,3.5vw,4vw);
+    font-size: 14px;
 }
 .tag-container:hover {
     transform: scale(.9);

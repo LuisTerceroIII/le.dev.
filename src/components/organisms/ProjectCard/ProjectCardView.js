@@ -7,7 +7,7 @@ import Tag from "../../Atoms/Tag/Tag";
 const ProjectCardView = ({images, projectName, description, tags}) => {
     return (
         <section className="project-card">
-            <h2 className={'project-name-project-card'}>{projectName}</h2>
+            <p className={'project-name-project-card'}>{projectName}</p>
             <Splide
                 className={'slide-project-card'}
                 options={{

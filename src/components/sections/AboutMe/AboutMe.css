@@ -9,9 +9,10 @@
 .about-me-title {
     margin-top: 120px;
     text-align: center;
-    font-size: 60px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-family: var(--title);
     font-weight: 500;
+    margin-bottom: 40px;
 }
 .about-me-content-container {
     margin-top: -30px;

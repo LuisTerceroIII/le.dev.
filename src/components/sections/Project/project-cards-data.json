@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "name": "Hybeans App",
+      "description": "React native",
+      "tags": ["React Native", "Typescript", "MST", "Firebase"],
+      "images": [
+        "./proyectos/hyApp/1.png",
+        "./proyectos/hyApp/2.png",
+        "./proyectos/hyApp/3.png",
+        "./proyectos/hyApp/4.png",
+        "./proyectos/hyApp/5.png",
+        "./proyectos/hyApp/6.png",
+        "./proyectos/hyApp/7.png",
+        "./proyectos/hyApp/8.png",
+        "./proyectos/hyApp/9.png",
+        "./proyectos/hyApp/10.png"
+
+      ]
+    },
+    {
       "name": "Filoweb",
       "description": "Educational site that traces the history of western philosophy, from the pre-socratic schools to the postmodern ones, showing its main currents and exponents in a beautiful way.",
       "tags": ["Javascript", "React", "Css", "JSX"],
@@ -18,7 +36,7 @@
       ]
     },
     {
-      "name": "Jardin Management Desktop",
+      "name": "Jardin Management CPanel",
       "description": "\nCommercial web application built to manage the inventory of a local second hand clothing store, with it the store employees can enter products, modify them, delete them and perform specific searches. A secured API is implemented with query, pagination, login and crud services. ",
       "tags": ["Javascript", "React", "Css", "JSX","Java", "Spring Boot","JWT Token" , "PostgrestSql", "Amazon s3", "Heroku"],
       "images": [
@@ -31,19 +49,6 @@
         "./proyectos/JardinApp/web/7.png",
         "./proyectos/JardinApp/web/8.png"
         ]
-    },
-    {
-      "name": "Jardin Management Mobile",
-      "description": "Mobile adaptation of Jardin management",
-      "tags": ["Javascript", "React", "Css", "JSX","Java", "Spring Boot", "PostgrestSql", "Amazon s3", "Heroku"],
-      "images": [
-        "./proyectos/JardinApp/mobile/1.jpeg",
-        "./proyectos/JardinApp/mobile/2.jpeg",
-        "./proyectos/JardinApp/mobile/3.jpeg",
-        "./proyectos/JardinApp/mobile/4.jpeg",
-        "./proyectos/JardinApp/mobile/5.jpeg",
-        "./proyectos/JardinApp/mobile/6.jpeg"
-      ]
     },
     {
       "name": "Your Lists App",
