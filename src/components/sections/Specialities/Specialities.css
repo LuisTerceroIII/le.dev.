@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(238, 238, 180, 0.32);
+    background-color: var(--white);
     height: 100vh;
     align-items: center;
     overflow: auto;
+    margin-bottom: 200px;
 }
 
 .speciality-container {
@@ -14,14 +15,12 @@
     max-width: 50vw;
     min-height: 40vw;
     max-height: 50vw;
-    border: 2px solid #143421;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     margin-bottom: 5%;
-    background-color: #9cc1b6;
+    background-color: var(--softGrey);
     cursor: default;
-
 }
 
 .speciality-container p {
@@ -32,31 +31,60 @@
     font-family: 'Prata', serif;
     text-transform: uppercase;
 }
+/* .specialities {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    min-width: 99%;
+    justify-content: center;
+    flex-wrap: wrap;
 
-@media screen and (min-width: 650px) {
+} */
 
-    .specialities-container {
-        justify-content: flex-start;
-        height: 90vh;
+.specialities-container {
+    justify-content: flex-start;
+    
+}
+.speciality-container {
+    min-width: 15vw;
+    max-width: 20vw;
+    min-height: 15vw;
+    max-height: 20vw;
+
+}
+
+.specialities {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    min-width: 99%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.speciality-container p {
+    font-size: 7vw;
+}
+@media screen and (max-width: 757px) {
+    .specialities {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
     .speciality-container {
-        min-width: 15vw;
-        max-width: 20vw;
-        min-height: 15vw;
-        max-height: 20vw;
-
-    }
-
-    .specialities {
         display: flex;
-        flex-direction: row;
-        gap: 10%;
-        min-width: 99%;
-        justify-content: center;
-        flex-wrap: wrap;
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
 
-    }
     .speciality-container p {
-        font-size: 7vw;
+        width: 5ch;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 60px ;
+        font-family: 'Prata', serif;
+        text-transform: uppercase;
     }
-}
+} 
