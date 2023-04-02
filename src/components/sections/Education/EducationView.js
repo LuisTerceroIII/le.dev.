@@ -5,6 +5,7 @@ const EducationView = ({education}) => {
     return (
         <section className={"education-main-container"}>
             <h2 className={'about-me-title'}>Education</h2>
+            <div className='education-cards-container'>
             {education.map((study, key) => (
                 <section key={key+100} className={"education-card-container"}>
                     <Tilt>
@@ -18,6 +19,7 @@ const EducationView = ({education}) => {
                     </article>
                 </section>
             ))}
+            </div>
         </section>
     );
 };
