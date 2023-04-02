@@ -1,5 +1,5 @@
 .technologies-container {
-    background-color: rgba(238, 238, 180, 0.32);
+    background-color: var(--white);
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 600px) {
     .technologies-container {
-        background-color: rgba(238, 238, 180, 0.32);
+        background-color: var(--white);
         height: 100vh;
         overflow: auto;
     }

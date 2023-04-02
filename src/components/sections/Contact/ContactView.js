@@ -3,6 +3,7 @@ import "./Contact.css";
 import { useForm } from "react-hook-form";
 import TextField from "@mui/material/TextField";
 import ClockLoader from "react-spinners/ClockLoader";
+import Button from "../../../components/Atoms/button/Button";
 
 const ContactView = ({
   sendEmail,
@@ -90,9 +91,7 @@ const ContactView = ({
             }
           />
         ) : (
-          <button type={"submit"} className={"contact-button"}>
-            Send
-          </button>
+          <Button className={"button contact-button"} text={"Send"}/>
         )}
         {errorSendingEmail ? (
           <p className={"contact-error-sending-email"}>

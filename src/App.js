@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import LandingButton from "./components/Atoms/LandingButton/LandingButton";
+import Button from "./components/Atoms/button/Button";
 import AnimatedText from "react-animated-text-content";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       >
         Luis Espinoza Software Developer
       </AnimatedText>
-      <LandingButton className={"landing-button"} text={"Explore"} />
+      <Button className={"button"} text={"Explore"} route={'/aboutme'} />
       <Fragment className={"background-images-home"}>
         <img className={"moon"} src={"./moon.svg"} alt={"sun"} />
         <img className={"sun"} src={"./sun3.svg"} alt={"sun"} />

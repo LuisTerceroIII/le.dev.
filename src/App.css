@@ -46,7 +46,7 @@
     margin-left: 60%;
   }
 
-  .landing-button {
+/*   .landing-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
 .landing-button:hover {
   background-color: #4a4b4a;
   transition: background-color .3s ease-out;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .sun {

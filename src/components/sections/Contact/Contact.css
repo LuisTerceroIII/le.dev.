@@ -20,35 +20,8 @@
 
 .contact-button {
     margin: 0 auto;
-    text-align: center;
-    background-color: #000000;
-    border: none;
-    width: 23vw;
-    height: 15vw;
-    display:inline-block;
-    font-family: 'Prata', serif;
-
-    cursor: pointer;
-    border-radius: 5px;
-    color: #ffffff;
-    z-index: 2;
-    transition: all .5s ease-in;
-}
-
-.contact-button:hover {
-    transition: all .5s ease-in;
-    background-color: #4a4b4a;
 }
 
 .contact-error-sending-email {
     margin: 0 auto;
-}
-
-@media screen and (min-width: 600px) {
-    .contact-button {
-        width: 9vw;
-        height: 4.5vw;
-        font-size: 2vw;
-        margin-bottom: 5%;
-    }
 }
