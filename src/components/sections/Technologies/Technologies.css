@@ -1,43 +1,47 @@
 .technologies-container {
     background-color: var(--white);
-    height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .technologies-logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    row-gap: 2.5%;
-    margin-bottom:31%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
+    padding: 0 150px;
+    padding-bottom: 100px;
 }
 .tech-logo {
-    max-width: 25vw;
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     cursor: default;
-
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
 }
 
 .tech-logo:hover {
     transform: scale(1.3);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 757px) {
     .technologies-container {
         background-color: var(--white);
         height: 100vh;
         overflow: auto;
     }
     .technologies-logos {
-        grid-template-columns: .5fr .5fr .5fr;
-        row-gap: 2.5%;
-        column-gap: 10%;
-        margin-bottom:15%;
+        padding: 0 30px;
     }
     .tech-logo {
-        max-width: 8vw;
+        max-width: 100px;
+        max-height: 100px;
+        min-width: 100px;
+        min-height: 100px;
     }
 }
