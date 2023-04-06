@@ -22,7 +22,6 @@ const SpecialitiesView = ({ specialities }) => {
                 </Tilt>
             ))}
         </section>
-
     </section>
   );
 };

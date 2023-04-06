@@ -30,7 +30,6 @@
 .avatar-image-about-me {
     max-width:360px;
     min-width:360px;
-    animation: sun-spin 50s infinite linear;
 }
 
 .about-paragraph-right {
@@ -43,15 +42,6 @@
     font-weight: 400;
     color: var(--hardGrey);
     margin-bottom: 200px;
-}
-
-@keyframes sun-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 @media screen and (max-width: 758px) {

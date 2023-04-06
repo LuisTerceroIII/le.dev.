@@ -2,9 +2,11 @@
 
   .App {
     background-color: var(--white);
-    height: 100vh;
     overflow: hidden;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+    
   }
 
   .title-landing {
@@ -45,32 +47,6 @@
     z-index: 0;
     margin-left: 60%;
   }
-
-/*   .landing-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--black);
-    border: none;
-    width: fit-content;
-    height: fit-content;
-    margin-top: 32px;
-    margin-left: 5%;
-    font-family:var(--title);
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 5px;
-    color: #ffffff;
-    z-index: 2;
-    margin-bottom: 5%;
-    transition: background-color .3s ease-out;
-    padding: 19px;
-  }
-
-.landing-button:hover {
-  background-color: #4a4b4a;
-  transition: background-color .3s ease-out;
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   .sun {
@@ -118,15 +94,11 @@
       overflow: hidden;
     }
     .title-landing {
-      margin-top: 25%;
-      font-size: 65px;
+      margin-top: 35%;
+      font-size: 60px;
       max-width: 12ch;
       overflow-wrap: break-word;
     }
-    .landing-button {
-      font-size: 18px;
-    }
-
     .sun, .moon {
       max-width: 45%;
       left: 10%;
