@@ -31,15 +31,6 @@
     font-family: 'Prata', serif;
     text-transform: uppercase;
 }
-/* .specialities {
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
-    min-width: 99%;
-    justify-content: center;
-    flex-wrap: wrap;
-
-} */
 
 .specialities-container {
     justify-content: flex-start;
