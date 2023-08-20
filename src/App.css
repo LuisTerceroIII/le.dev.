@@ -8,24 +8,3 @@
     flex-direction: row;
     min-Height: 100vh
   }
-
-  .home-word {
-    font-family: var(--title);
-    text-shadow: var(--softShadow);
-    font-size: clamp(1.1875rem, -0.9107rem + 6.7143vw, 4.125rem);
-    text-align: left;
-    padding: 1% 0px;
-  }
-  .purple-word {
-    color: rgba(204, 132, 236, 0.73)
-  }
-  .golden-word {
-    color: #FFD700
-  }
-  .orange-word {
-    color: #D35C37
-  }
-  .green-word {
-    color: #83E981;
-  }
-
