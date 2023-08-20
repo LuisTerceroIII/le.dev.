@@ -4,7 +4,7 @@
     grid-template-columns: .3fr 1fr .3fr .3fr;
     grid-template-rows:.1fr 1fr 1fr ;
     height: 40px;
-    background-color: #000000;
+    background-color: transparent;
     z-index:3;
     padding-top: 23px;
     padding-bottom: 20px;
@@ -13,10 +13,11 @@
     position: absolute;
     min-width: 100%;
     overflow: visible;
+    cursor: pointer;
 }
 
 .header-open {
-    background-color: #080908;
+    background-color: #08090888;
     height: 100vh;
     transition: all 1s ease-in;
     overflow: scroll;
@@ -46,7 +47,7 @@
     content: "";
     display: block;
     position: relative;
-    width: 100%;
+    width: 55%;
     height: 5px;
     left: 0;
     align-self: flex-start;
@@ -56,7 +57,7 @@
 }
 .menu-items-container a {
     text-decoration: none;
-    color: var(--white);
+    color:var(--opaqueGold);
 }
 
 /*  .menu-items-container a:hover {

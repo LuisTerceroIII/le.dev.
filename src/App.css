@@ -1,157 +1,31 @@
 
 
   .App {
-    background-color: var(--white);
+    background-color: var(--darkBlue);
     overflow: hidden;
     z-index: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    min-Height: 100vh
   }
 
-  .title-landing {
-    margin-left: 5%;
-    color: var(--black);
-    font-size: 130px;
-    padding: 0 10% 0 0 ;
+  .home-word {
     font-family: var(--title);
-    display: inline-block;
-    position: relative;
-    z-index: 2;
-    margin-top: 14%;
-    max-width: 12ch;
     text-shadow: var(--softShadow);
-
+    font-size: clamp(1.1875rem, -0.9107rem + 6.7143vw, 4.125rem);
+    text-align: left;
+    padding: 1% 0px;
   }
-
-  .background-images-home {
-    display: block;
-    flex-direction: column;
-    position: relative;
-    margin-top: -100%;
+  .purple-word {
+    color: rgba(204, 132, 236, 0.73)
   }
-  .sun {
-    width: 45%;
-    display: block;
-    position: relative;
-    opacity: 0.5;
-    z-index: 0;
-    margin-left: 45%;
-    top: 30vw;
+  .golden-word {
+    color: #FFD700
   }
-  .moon {
-    display: block;
-    width: 45%;
-    position: relative;
-    opacity: 0.5;
-    z-index: 0;
-    margin-left: 60%;
+  .orange-word {
+    color: #D35C37
   }
-
-  @media (prefers-reduced-motion: no-preference) {
-    .sun {
-      -webkit-animation: sun-spin-up infinite 50s linear;
-      animation: sun-spin-up infinite 50s linear;
-      z-index: 0;
-    }
-  
-    .moon {
-      -webkit-animation: moon-spin-down infinite 50s linear;
-      animation: moon-spin-down infinite 50s linear;
-    }
+  .green-word {
+    color: #83E981;
   }
-
-@keyframes sun-spin-up {
-  0% {
-    transform: rotate(0deg);
-    top: 5%;
-  }
-  50% {
-    transform: rotate(360deg);
-    top: -190%;
-  }
-  100% {
-    transform: rotate(0deg);
-    top: 5%;
-  }
-
-}
-
-@keyframes moon-spin-down {
-  0% {
-    transform: rotate(0deg);
-    top: -120%;
-  }
-  50% {
-    transform: rotate(360deg);
-    top: 40%;
-  }
-  100% {
-    transform: rotate(0deg);
-    top: -120%;
-  }
-}
-
-  @media screen and (max-width: 757px) {
-    .App {
-      min-height: 100%;
-      overflow: hidden;
-      flex-grow: 1;
-    }
-    .title-landing {
-      margin-top: 35%;
-      font-size: 60px;
-      max-width: 12ch;
-      overflow-wrap: break-word;
-    }
-    @keyframes sun-spin-up-mobile {
-      0% {
-        transform: rotate(0deg);
-        bottom: 0;
-      }
-      50% {
-        transform: rotate(360deg);
-        top: 70%;
-      }
-      100% {
-        transform: rotate(0deg);
-        bottom: 0;
-      }
-
-    }
-
-    @keyframes moon-spin-down-mobile {
-      0% {
-        transform: rotate(0deg);
-        bottom: 0;
-      }
-      50% {
-        transform: rotate(360deg);
-        bottom: 70%
-      }
-      100% {
-        transform: rotate(0deg);
-        bottom: 0;
-      }
-    }
-
-    .sun, .moon {
-      position: absolute;
-      max-width: 45%;
-    }  
-    .sun {
-      bottom: 0;
-      -webkit-animation: sun-spin-up-mobile infinite 30s linear;
-      animation: sun-spin-up-mobile infinite 30s linear;
-      margin-left: 45%;
-    }
-    
-    .moon {
-      bottom: 60%;
-      -webkit-animation: moon-spin-down-mobile infinite 30s linear;
-      animation: moon-spin-down-mobile infinite 30s linear;
-      margin-left: 5%;
-
-    }
-  }
-
 

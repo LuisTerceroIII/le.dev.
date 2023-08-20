@@ -7,6 +7,8 @@
   --title: 'Prata', serif;
   --content: 'Open Sans', sans-serif;
   --softShadow: 0px 2px 12px rgba(0,0,0,0.25);
+  --darkBlue: #1D2731;
+  --opaqueGold: #b77909
 }
 
 body {
