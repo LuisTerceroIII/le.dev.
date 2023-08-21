@@ -1,0 +1,38 @@
+
+/* Rows container */
+.animated-rows-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 8%;
+}
+/* Row */
+@keyframes right-infinite-horizontal-move {
+    to {
+        transform: translateX(-100%);
+    }
+}
+@keyframes left-infinite-horizontal-move {
+    to {
+        transform: translateX(100%);
+    }
+}
+.technologies-animated-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 120px;
+}
+.start-right {
+    transform: translateX(100%);
+    animation: right-infinite-horizontal-move 100s linear infinite;
+}
+.start-left {
+    transform: translateX(-100%);
+    animation: left-infinite-horizontal-move 100s linear infinite;
+}
+.tech-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}

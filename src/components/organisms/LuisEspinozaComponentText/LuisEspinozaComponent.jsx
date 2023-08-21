@@ -1,16 +1,9 @@
-import React from "react";
+import React, { memo } from "react";
 import AnimatedText from "react-animated-text-content";
 import "./LuisEspinozaComponentStyles.css"
-export const LuisEspinozaComponent = () => {
+const LuisEspinozaComponent = () => {
   return (
-    <section
-      style={{
-        marginTop: 200,
-        display: "flex",
-        flexDirection: "column",
-        padding: "0 5%",
-      }}
-    >
+    <section className="luis-espinoza-compo-main-container">
       <AnimatedText
         className={"home-word purple-word"}
         animationType={"float"}
@@ -96,7 +89,7 @@ export const LuisEspinozaComponent = () => {
           tag={"p"}
           duration={1}
         >
-          {"specialty"}
+          {"specialties"}
         </AnimatedText>
         <AnimatedText
           className="home-word orange-word"
@@ -233,3 +226,5 @@ export const LuisEspinozaComponent = () => {
     </section>
   );
 };
+
+export const MemoizedLuisEspinozaComponent = memo(LuisEspinozaComponent);

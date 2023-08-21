@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-import { LuisEspinozaComponent } from "./components/index";
+import { MemoizedLuisEspinozaComponent, MemorizedAboutMe } from "./components/index";
+import AnimatedText from "react-animated-text-content";
 
 function App() {
-  return (
-    <main className="App">
-      <LuisEspinozaComponent />
-    </main>
-  );
+
+    const GoToAboutSectionArrow = () => (
+        <a href="#about-me" className="explore-arrow-container">
+            <img src={"./icons/purple-down-arrow.png"} className={"explore-page-arrow-animated"}/>
+        </a>
+    )
+    return (
+        <main className="App">
+            <section className="welcome-container">
+                <MemoizedLuisEspinozaComponent />
+                <GoToAboutSectionArrow/>
+            </section>
+            <MemorizedAboutMe />
+        </main>
+    );
 }
 export default App;

@@ -1,0 +1,35 @@
+.about-me-main-container {
+    background-color: var(--darkBlue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+.about-me-summary-message {
+    font-size: 66px;
+    text-align: center;
+    line-height: 100px;
+    padding: 0 10%;
+    text-align:center;
+    transition: color 5s ease-in-out;
+    font-weight:900;
+    color:var(--white);
+    background: linear-gradient(to right,var(--purple),var(--golden), var(--purple));
+    background-size: 200% 200%;
+    animation: rainbow 5s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    font-family: var(--title);
+    text-shadow: var(--softShadow);
+    margin-top: 5%;
+}
+.about-me-summary-message>*:hover {
+    color:rgba(0,0,0,0);
+}
