@@ -1,23 +1,29 @@
 import React, { useState } from "react";
 import "./App.css";
-import { MemoizedLuisEspinozaComponent, MemorizedAboutMe } from "./components/index";
+import { MemoizedLuisEspinozaComponent, MemorizedAboutMe, Projects } from "./components/index";
 import AnimatedText from "react-animated-text-content";
+import { ScrollContainer } from "react-scroll-motion";
 
 function App() {
 
-    const GoToAboutSectionArrow = () => (
-        <a href="#about-me" className="explore-arrow-container">
-            <img src={"./icons/purple-down-arrow.png"} className={"explore-page-arrow-animated"}/>
-        </a>
-    )
+
+
+    const GoToAboutSectionArrow = () => {
+        return (
+            <a href="#about-me" className="explore-arrow-container">
+                <img src={"./icons/purple-down-arrow.png"} className={"explore-page-arrow-animated"}/>
+            </a>
+        )
+    }
     return (
-        <main className="App">
+        <ScrollContainer className="App">
             <section className="welcome-container">
                 <MemoizedLuisEspinozaComponent />
                 <GoToAboutSectionArrow/>
             </section>
             <MemorizedAboutMe />
-        </main>
+            <Projects/>
+        </ScrollContainer>
     );
 }
 export default App;

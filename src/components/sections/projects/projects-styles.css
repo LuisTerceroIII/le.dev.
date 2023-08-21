@@ -1,0 +1,13 @@
+.projects-main-container {
+    background-color: var(--darkBlue);
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects-title-section {
+    color: var(--white);
+    padding: 0 0 3% 0;
+}
