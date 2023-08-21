@@ -6,6 +6,7 @@
     width: 320px;
     border-radius: 20px;
     padding: 25px;
+    background-color: #748386;
     
 }
 
@@ -33,7 +34,7 @@
     margin-bottom: 10px;
     padding: 0 10%;
     margin-bottom: 15px;
-    color:var(--softBlack);
+    color:var(--white);
     text-shadow: var(--softShadow);
 
 }
@@ -49,7 +50,7 @@
     font-size: 16px;
     margin-top: 10px;
     font-weight: 600;
-    color:var(--hardGrey);
+    color:var(--white);
     line-height: 20px;
     
 }

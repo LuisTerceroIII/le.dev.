@@ -29,7 +29,8 @@ const ContactView = ({
           type={"text"}
           label={"Your name"}
           variant="outlined"
-          color="secondary"
+          color="warning"
+          focused
           name={"completeName"}
           {...register("completeName", { required: "Must include" })}
         />
@@ -39,7 +40,8 @@ const ContactView = ({
           type={"text"}
           label={"Email"}
           variant="outlined"
-          color="secondary"
+          color="warning"
+          focused
           name={"email"}
           {...register("email", {
             required: true,
@@ -54,7 +56,8 @@ const ContactView = ({
           type={"text"}
           label={"Subject"}
           variant="outlined"
-          color="secondary"
+          color="warning"
+          focused
           name={"subject"}
           {...register("subject", { required: true })}
         />
@@ -63,7 +66,8 @@ const ContactView = ({
           type={"text"}
           label={"Message"}
           variant="outlined"
-          color="secondary"
+          color="warning"
+          focused
           multiline
           rows={4}
           name={"message"}
@@ -95,7 +99,7 @@ const ContactView = ({
         )}
         {errorSendingEmail ? (
           <p className={"contact-error-sending-email"}>
-            Error connecting with server 💥
+            Error connecting to the server.<br></br>Please contact me at luis.espinoza.nav@live.com
           </p>
         ) : (
           ""

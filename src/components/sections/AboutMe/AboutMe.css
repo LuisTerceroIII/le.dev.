@@ -1,7 +1,7 @@
 .about-me-section-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    background-color: var(--darkBlue);
     position: relative;
     min-height: 100vh;
 }
@@ -13,6 +13,7 @@
     font-family: var(--title);
     font-weight: 500;
     margin-bottom: 40px;
+    color: var(--golden);
 }
 .about-me-content-container {
     margin-top: -30px;
@@ -41,8 +42,9 @@
     text-align: center;
     font-family: var(--content);
     font-weight: 400;
-    color: var(--hardGrey);
+    color: var(--white);
     margin-bottom: 200px;
+
 }
 
 @keyframes sun-spin {

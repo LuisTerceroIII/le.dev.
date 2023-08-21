@@ -1,27 +1,31 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    height: 130vh;
+    height: 100vh;
     overflow: auto;
-    margin-bottom: 5%;
+    background-color: var(--darkBlue);
+    padding-bottom: 10%;
 
 
 }
 
 .form-contact {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    max-width: 70%;
-    min-width: 70%;
-    margin: 0 auto;
-    row-gap: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding: 0 5%;
+    color: var(--white);
+
 }
 
 .contact-button {
-    margin: 0 auto;
+    align-self: center;
 }
 
 .contact-error-sending-email {
-    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+
 }
