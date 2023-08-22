@@ -7,12 +7,7 @@ import { Link } from "react-router-dom";
 const HeaderView = ({ menu }) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <header className={isOpen ? "header header-open" : "header"}>
-      <Logo
-        containerClass={"container-logo-compo"}
-        logoClass={"logo"}
-        hamburgerClass={"hamburger-button"}
-      />
+    <header className={isOpen ? "header header-open" : "header"} onClick={()=> setOpen(prev => !prev)}>
       <nav
         className={
           isOpen
@@ -29,13 +24,12 @@ const HeaderView = ({ menu }) => {
               </li>
           ))}
       </ul>
-
       </nav>
       <span className={"hamburger-button"}>
         <Hamburger
           size={40}
           toggled={isOpen}
-          toggle={setOpen}
+
           color={'#FFFFFF'}
           direction={"right"}
         />

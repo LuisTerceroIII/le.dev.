@@ -7,6 +7,13 @@
   --title: 'Prata', serif;
   --content: 'Open Sans', sans-serif;
   --softShadow: 0px 2px 12px rgba(0,0,0,0.25);
+  --darkBlue: #1D2731;
+  --darkGrey: #343A46;
+  --opaqueGold: #b77909;
+  --purple: rgba(204, 132, 236, 0.73);
+  --green: #83E981;
+  --orange: #D35C37;
+  --golden: #FFD700;
 }
 
 body {
@@ -21,6 +28,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 
 
 }
@@ -30,7 +39,7 @@ body::-webkit-scrollbar {
 
 }
 html {
-  scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 html, body {min-height: 100%;}
 

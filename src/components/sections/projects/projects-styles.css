@@ -1,0 +1,39 @@
+.projects-main-container {
+    background-color: var(--darkBlue);
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.projects-title-section {
+    color: var(--white);
+    padding: 3% 3%;
+}
+
+.projects-cards-container {
+    overflow: visible, ;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 0 10%;
+}
+
+.projects-cards-container:nth-child(2) {
+    transition-delay: 2000ms;
+}
+.projects-cards-container:nth-child(3) {
+    transition-delay: 4000ms;
+}
+.projects-cards-container:nth-child(4) {
+    transition-delay: 6000ms;
+}
+.projects-cards-container:nth-child(5) {
+    transition-delay: 8000ms;
+}
+.projects-cards-container:nth-child(6) {
+    transition-delay: 10000ms;
+}

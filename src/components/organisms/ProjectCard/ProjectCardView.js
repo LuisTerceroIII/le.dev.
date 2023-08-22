@@ -1,43 +1,43 @@
-import React from 'react';
-import './ProjectCard.css';
-import {Splide, SplideSlide} from "@splidejs/react-splide";
-import '@splidejs/splide/dist/css/splide.min.css';
-import Tag from "../../Atoms/Tag/Tag";
+import React, { useEffect, useRef, useState } from 'react'
+import './ProjectCard.css'
+import { Splide, SplideSlide } from "@splidejs/react-splide"
+import '@splidejs/splide/dist/css/splide.min.css'
+import Tag from "../../Atoms/Tag/Tag"
 
 const ProjectCardView = ({images, projectName, description, tags}) => {
-    return (
-        <section className="project-card">
-            <p className={'project-name-project-card'}>{projectName}</p>
-            <Splide
-                className={'slide-project-card'}
-                options={{
-                    type: "loop",
-                    rewind: true,
-                    autoplay: true,
-                    pauseOnHover: false,
-                    resetProgress: true,
-                    arrows: false,
-                    pagination: false
-                }}
-                hasAutoplayProgress
-            >
-                {images.map((slide,key) => (
-                    <SplideSlide key={key}>
-                        <img src={slide} alt={slide.slice(10)} className={'project-card-image'}/>
-                    </SplideSlide>
-                ))}
-            </Splide>
-            <section className={'project-card-data'}>
-                <section className={'tags-container'}>
-                    {tags.map((tag, key) => (
-                        <Tag key={key} content={tag}/>
+        return (
+            <section className="project-card">
+                <p className={'project-name-project-card'}>{projectName}</p>
+                <Splide
+                    className={'slide-project-card'}
+                    options={{
+                        type: "loop",
+                        rewind: true,
+                        autoplay: true,
+                        pauseOnHover: false,
+                        resetProgress: true,
+                        arrows: false,
+                        pagination: false
+                    }}
+                    hasAutoplayProgress
+                >
+                    {images.map((slide,key) => (
+                        <SplideSlide key={key}>
+                            <img src={slide} alt={slide.slice(10)} className={'project-card-image'}/>
+                        </SplideSlide>
                     ))}
+                </Splide>
+                <section className={'project-card-data'}>
+                    <section className={'tags-container'}>
+                        {tags.map((tag, key) => (
+                            <Tag key={key} content={tag}/>
+                        ))}
+                    </section>
+                    <p className={'project-card-description'}>{description}</p>
                 </section>
-                <p className={'project-card-description'}>{description}</p>
+
             </section>
+        )
+}
 
-        </section>
-    );
-};
-
-export default ProjectCardView;
+export default ProjectCardView

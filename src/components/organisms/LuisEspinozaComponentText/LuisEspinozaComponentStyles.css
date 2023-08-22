@@ -1,0 +1,32 @@
+
+.luis-espinoza-compo-main-container {
+    padding: 0 5%;
+}
+
+.home-word {
+    font-family: var(--title);
+    text-shadow: var(--softShadow);
+    font-size: clamp(1.1875rem, -0.9107rem + 6.7143vw, 4.125rem);
+    text-align: left;
+    padding: 1% 0px;
+}
+
+.white-word {
+    color: var(--white)
+}
+
+.purple-word {
+    color: var(--purple)
+}
+
+.golden-word {
+    color: var(--golden)
+}
+
+.orange-word {
+    color: var(--orange)
+}
+
+.green-word {
+    color: var(--green)
+}

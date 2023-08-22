@@ -13,7 +13,7 @@ const PageFrame = ({children}) => {
         <main style={styles}>
             <Header />
             {children}
-            <Footer/>
+            {/* <Footer/> */}
         </main>
     );
 };

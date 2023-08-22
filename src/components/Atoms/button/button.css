@@ -6,15 +6,12 @@
     border: none;
     width: fit-content;
     height: fit-content;
-    margin-top: 32px;
-    margin-left: 5%;
     font-family:var(--title);
     font-size: 24px;
     cursor: pointer;
     border-radius: 5px;
     color: #ffffff;
     z-index: 2;
-    margin-bottom: 5%;
     transition: background-color .3s ease-out;
     padding: 13px 19px;
   }

@@ -1,6 +1,8 @@
 .project-container {
     display: flex;
     flex-direction: column;
+    background-color: var(--darkBlue);
+    min-height: 100vh;
 }
 
 .project-cards-container {

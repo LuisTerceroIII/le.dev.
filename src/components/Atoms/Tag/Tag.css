@@ -1,7 +1,7 @@
 .tag-container {
     min-width: 80%;
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.94);
+    background-color: var(--darkBlue);
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     border-radius: 5px;
