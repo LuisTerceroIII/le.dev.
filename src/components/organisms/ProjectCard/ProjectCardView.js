@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import './ProjectCard.css'
 import { Splide, SplideSlide } from "@splidejs/react-splide"
 import '@splidejs/splide/dist/css/splide.min.css'

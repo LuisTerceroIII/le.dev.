@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./App.css";
-import { MemoizedLuisEspinozaComponent, MemorizedAboutMe, ProjectsMemo } from "./components/index";
+import { AboutMe, MemoizedLuisEspinozaComponent, ProjectsMemo } from "./components/index";
 import Contact from "./routes/Contact";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     const GoToAboutSectionArrow = () => {
         return (
             <a href="#about-me" className="explore-arrow-container">
-                <img src={"./icons/purple-down-arrow.png"} className={"explore-page-arrow-animated"}/>
+                <img src={"./icons/purple-down-arrow.png"} className={"explore-page-arrow-animated"} alt={"purple-arrow"}/>
             </a>
         )
     }
@@ -18,7 +18,7 @@ function App() {
                 <MemoizedLuisEspinozaComponent />
                 <GoToAboutSectionArrow/>
             </section>
-            <MemorizedAboutMe />
+            <AboutMe />
             <ProjectsMemo/>
             <Contact/>
         </main>

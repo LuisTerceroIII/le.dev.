@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 
 const styles = {
     display: 'flex',
@@ -13,7 +12,6 @@ const PageFrame = ({children}) => {
         <main style={styles}>
             <Header />
             {children}
-            {/* <Footer/> */}
         </main>
     );
 };
