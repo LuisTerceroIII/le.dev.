@@ -10,7 +10,6 @@
     "@splidejs/react-splide": "0.6.20",
     "@splidejs/splide": "3.6.12",
     "@testing-library/jest-dom": "5.16.2",
-    "@testing-library/react": "12.1.4",
     "@testing-library/user-event": "13.5.0",
     "emailjs-com": "3.2.0",
     "hamburger-react": "2.4.1",
@@ -21,7 +20,6 @@
     "react-parallax-tilt": "1.7.120",
     "react-router-dom": "6.2.2",
     "react-scripts": "5.0.0",
-    "react-scroll-motion": "^0.3.2",
     "react-spinners": "0.11.0",
     "web-vitals": "2.1.4"
   },

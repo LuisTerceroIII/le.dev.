@@ -1,34 +1,54 @@
-import React, { useMemo } from 'react'
+import React, { memo, useEffect, useMemo, useRef, useState } from 'react'
 import "./projects-styles.css"
-import { Animator, FadeIn, Move, ScrollPage, batch } from 'react-scroll-motion'
 import projectData from './project-cards-data.json'
 import ProjectCard from '../../organisms/ProjectCard/ProjectCard'
-import AnimatedText from 'react-animated-text-content'
 
 export const Projects = () => {
 
+
+    const [isIntersecting, setIsIntersecting] = useState(false)
+    const ref = useRef(null)
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+          setIsIntersecting(entry.isIntersecting)
+        }, {
+            root: null,
+            rootMargin: "-150px"
+        })
+        observer.observe(ref.current)
+        return () => observer.disconnect()
+      }, [])
+
+    useEffect(() => {
+        if (isIntersecting) {
+            const cards = ref.current?.getElementsByClassName("project-card")
+            for (let i = 0; i < cards.length; i++) {
+                cards[i].classList.add("show")
+            }
+        } else {
+            const cards = ref.current?.getElementsByClassName("project-card")
+            for (let i = 0; i < cards.length; i++) {
+                cards[i].classList.remove("show")
+            }
+        }
+    }, [isIntersecting])
+
     const projects = useMemo(() => {
         return projectData.projects.map((cardInfo, key) => (
-            <Animator animation={batch(FadeIn(), Move())}>
-                <ProjectCard dataCard={cardInfo} key={key}/>
-            </Animator>
+            <ProjectCard dataCard={cardInfo} key={key}/>
         ))
     }, [])
 
     return (
         <section id={"projects"} className={`projects-main-container`}>
-            <AnimatedText
-                className="home-word projects-title-section"
-                animationType={"float"}
-                type={"words"}
-                tag={"p"}
-                duration={0.6}
-            >
+            <p className="home-word projects-title-section">
                 Projects
-            </AnimatedText>
-            <section style={{overflow: 'visible', display: "flex", gap: 20, flexWrap: "wrap", justifyContent: "center"}}>
+            </p>
+            <section ref={ref} className='projects-cards-container'>
                 {projects}
             </section>
         </section>
     )
 }
+export const ProjectsMemo = memo(Projects)

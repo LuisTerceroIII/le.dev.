@@ -27,11 +27,7 @@ const Header = () => {
     {
       htmlText: "Projects",
       route: "/projects",
-    },
-    {
-      htmlText: "Contact",
-      route: "/contact",
-    },
+    }
   ];
 
   return <HeaderView menu={menuAndPaths} />;

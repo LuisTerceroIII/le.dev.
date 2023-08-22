@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import "./App.css";
-import { MemoizedLuisEspinozaComponent, MemorizedAboutMe, Projects } from "./components/index";
-import AnimatedText from "react-animated-text-content";
-import { ScrollContainer } from "react-scroll-motion";
+import { MemoizedLuisEspinozaComponent, MemorizedAboutMe, ProjectsMemo } from "./components/index";
+import Contact from "./routes/Contact";
 
 function App() {
-
-
 
     const GoToAboutSectionArrow = () => {
         return (
@@ -16,14 +13,15 @@ function App() {
         )
     }
     return (
-        <ScrollContainer className="App">
+        <main className="App">
             <section className="welcome-container">
                 <MemoizedLuisEspinozaComponent />
                 <GoToAboutSectionArrow/>
             </section>
             <MemorizedAboutMe />
-            <Projects/>
-        </ScrollContainer>
+            <ProjectsMemo/>
+            <Contact/>
+        </main>
     );
 }
 export default App;
