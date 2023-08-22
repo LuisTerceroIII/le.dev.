@@ -8,7 +8,7 @@ export const AnimatedRowTechnology = ({techs, left}) => {
             const fileName = techLocalUriImage.split("/").at(-1)
             return <img src={techLocalUriImage} className='tech-image' alt={fileName} key={fileName}/>
         })
-    })
+    }, [false])
     
     return (
         <section className={`technologies-animated-row ${left ? "start-left" : "start-right"}`}>
