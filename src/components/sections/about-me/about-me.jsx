@@ -1,8 +1,8 @@
-import React, { memo } from 'react'
+import React from 'react'
 import "./about-me-styles.css"
 import AnimatedText from 'react-animated-text-content'
 import { AnimatedRowsTechnologies } from '../../index'
-const AboutMe = () => {
+export const AboutMe = () => {
   return (
     <section id={"about-me"} className={`about-me-main-container`}>
         <div>
@@ -21,4 +21,3 @@ const AboutMe = () => {
   )
 }
 
-export const MemorizedAboutMe = AboutMe //memo(AboutMe)

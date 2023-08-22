@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "./Logo";
 import "./Header.css";
 import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
