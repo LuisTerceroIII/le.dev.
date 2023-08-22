@@ -25,11 +25,11 @@
 }
 .start-right {
     transform: translateX(100%);
-    animation: right-infinite-horizontal-move 100s linear infinite;
+    animation: right-infinite-horizontal-move 60s linear infinite;
 }
 .start-left {
     transform: translateX(-100%);
-    animation: left-infinite-horizontal-move 100s linear infinite;
+    animation: left-infinite-horizontal-move 60s linear infinite;
 }
 .tech-image {
     width: 80px;

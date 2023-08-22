@@ -4,9 +4,7 @@ import PageFrame from "../layouts/pageFrame/PageFrame";
 
 const Contact = () => {
     return (
-        <PageFrame>
-            <ContactSection/>
-        </PageFrame>
+        <ContactSection/>
     );
 };
 

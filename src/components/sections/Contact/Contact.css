@@ -1,12 +1,7 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    overflow: auto;
     background-color: var(--darkBlue);
-    padding-bottom: 10%;
-
-
 }
 
 .form-contact {
