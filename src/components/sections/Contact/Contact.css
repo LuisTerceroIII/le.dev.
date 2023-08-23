@@ -9,7 +9,7 @@
 .form-contact {
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 28px;
     padding: 0 5%;
     color: var(--white);
 
