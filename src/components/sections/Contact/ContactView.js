@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { useForm } from "react-hook-form";
 import TextField from "@mui/material/TextField";
-import ClockLoader from "react-spinners/ClockLoader";
+import HashLoader from "react-spinners/HashLoader";
 import Button from "../../../components/Atoms/button/Button";
 
 const ContactView = ({
@@ -32,6 +32,7 @@ const ContactView = ({
           color="warning"
           focused
           name={"completeName"}
+          sx={{ input: { color: 'orange' } }}
           {...register("completeName", { required: "Must include" })}
         />
         {errors.completeName?.type === "required" &&
@@ -47,6 +48,7 @@ const ContactView = ({
             required: true,
             pattern: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/,
           })}
+          sx={{ input: { color: 'orange' } }}
         />
         {errors.email?.type === "required" &&
           "E-mail is required 😀"}
@@ -60,6 +62,7 @@ const ContactView = ({
           focused
           name={"subject"}
           {...register("subject", { required: true })}
+          sx={{ input: { color: 'orange' } }}
         />
         {errors.subject?.type === "required" && "Subject is required 📧"}
         <TextField
@@ -71,6 +74,7 @@ const ContactView = ({
           multiline
           rows={4}
           name={"message"}
+          sx={{ textarea: { color: 'orange' } }}
           {...register("message", {
             required: true,
             minLength: {
@@ -84,8 +88,8 @@ const ContactView = ({
         {errors.message?.type === "minLength" &&
           "Are you sure you don't want to say something else ? 👀"}
         {sendingEmail ? (
-          <ClockLoader
-            color={"#9C27B0"}
+          <HashLoader
+            color={"#b77909"}
             loading={sendingEmail}
             size={50}
             css={

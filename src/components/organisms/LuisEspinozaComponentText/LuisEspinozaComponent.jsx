@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import AnimatedText from "react-animated-text-content";
+
 import "./LuisEspinozaComponentStyles.css"
 const LuisEspinozaComponent = () => {
   return (
@@ -174,7 +175,7 @@ const LuisEspinozaComponent = () => {
           tag={"p"}
           duration={1}
         >
-          {"experience"}
+          {"profesionalExperience"}
         </AnimatedText>
         <AnimatedText
           className="home-word orange-word"
@@ -202,6 +203,24 @@ const LuisEspinozaComponent = () => {
           duration={1.5}
         >
           {"2"}
+        </AnimatedText>
+        <AnimatedText
+          className="home-word white-word"
+          animationType={"float"}
+          type={"words"}
+          tag={"p"}
+          duration={1.5}
+        >
+          {" "}
+        </AnimatedText>
+        <AnimatedText
+          className="home-word white-word"
+          animationType={"float"}
+          type={"words"}
+          tag={"p"}
+          duration={1.5}
+        >
+          {"years"}
         </AnimatedText>
         <AnimatedText
           className="home-word purple-word"

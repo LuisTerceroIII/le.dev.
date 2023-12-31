@@ -13,7 +13,7 @@
     100%{background-position:left}
 }
 .about-me-summary-message {
-    font-size: 66px;
+    font-size: 80px;
     text-align: center;
     line-height: 100px;
     padding: 0 10%;
@@ -32,4 +32,16 @@
 }
 .about-me-summary-message>*:hover {
     color:rgba(0,0,0,0);
+}
+
+@media screen and (max-width: 660px) {
+    .about-me-summary-message {
+        font-size: 66px;
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .about-me-summary-message {
+        font-size: 46px;
+    }
 }

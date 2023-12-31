@@ -6,7 +6,7 @@
 .home-word {
     font-family: var(--title);
     text-shadow: var(--softShadow);
-    font-size: clamp(1.1875rem, -0.9107rem + 6.7143vw, 4.125rem);
+    font-size: 4rem;
     text-align: left;
     padding: 1% 0px;
 }
@@ -29,4 +29,34 @@
 
 .green-word {
     color: var(--green)
+}
+@media screen and (max-width: 1362px) {
+    .home-word {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1026px) {
+    .home-word {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 858px) {
+    .home-word {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 692px) {
+    .home-word {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 514px) {
+    .home-word {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 438px) {
+    .home-word {
+        font-size: 1rem;
+    }
 }
