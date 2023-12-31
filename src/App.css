@@ -4,6 +4,7 @@
     justify-content: center;
     scroll-behavior: smooth;
     flex-grow: 1;
+    overflow: hidden;
   }
 
   .welcome-container {
