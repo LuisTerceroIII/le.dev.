@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCardView from "./ProjectCardView";
 
-const ProjectCard = ({ dataCard }) => {
+const ProjectCard = ({ dataCard, show }) => {
   const projectName = dataCard.name;
   const description = dataCard.description;
   const tags = dataCard.tags;
@@ -13,6 +13,7 @@ const ProjectCard = ({ dataCard }) => {
       projectName={projectName}
       description={description}
       tags={tags}
+      show={show}
     />
   );
 };

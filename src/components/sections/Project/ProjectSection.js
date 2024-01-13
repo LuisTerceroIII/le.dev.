@@ -7,7 +7,7 @@ const ProjectSection = () => {
     const dataCard = projectData.projects;
 
     return (
-        <ProjectView dataCard={dataCard} />
+        <ProjectView dataCard={dataCard} show={true}/>
     );
 };
 

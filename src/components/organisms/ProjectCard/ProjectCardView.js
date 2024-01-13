@@ -4,9 +4,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide"
 import '@splidejs/splide/dist/css/splide.min.css'
 import Tag from "../../Atoms/Tag/Tag"
 
-const ProjectCardView = ({images, projectName, description, tags}) => {
+const ProjectCardView = ({images, projectName, description, tags, show}) => {
+    
         return (
-            <section className="project-card">
+            <section className={`project-card ${show ? "show" : undefined}`}>
                 <p className={'project-name-project-card'}>{projectName}</p>
                 <Splide
                     className={'slide-project-card'}
