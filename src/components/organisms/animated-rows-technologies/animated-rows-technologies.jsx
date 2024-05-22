@@ -11,7 +11,9 @@ export const AnimatedRowsTechnologies = () => {
       "./icons/node-js(1).png",
       "./icons/2.png",
       "./icons/5.png",
-      "./icons/reactg(1).png"
+      "./icons/reactg(1).png",
+      "./icons/mst.png",
+      "./icons/next.png"
     ];
     const techsPartTwo = [
       "./icons/13.png",
@@ -22,6 +24,7 @@ export const AnimatedRowsTechnologies = () => {
       "./icons/heroku.png",
       "./icons/amazonwebservices.png",
       "./icons/Netlify.png",
+      "./icons/zustand.png",
     ];
 
 

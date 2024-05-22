@@ -15,8 +15,8 @@
         "./proyectos/hyApp/8.png",
         "./proyectos/hyApp/9.png",
         "./proyectos/hyApp/10.png"
-
-      ]
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.hybeans"
     },
     {
       "name": "Filoweb",
@@ -34,6 +34,18 @@
         "./proyectos/Webfilo/9.png",
         "./proyectos/Webfilo/10.png"
       ]
+    },
+    {
+      "name": "Lux Ater",
+      "description": "Designed and developed Lux Ater, a philosophy and poetry blog for a writer. Utilized Next.js for the framework, CSS Modules for styling, Firebase for database and authentication, and Markdown for content formatting. The project features a clean and intuitive interface, efficient content publishing, and robust scalability and security.",
+      "tags": ["Typescript", "Next js",  "CSS Module", "TSX","Firebase", "Markdown", "Netlify", "Responsive"],
+      "images": [
+        "./proyectos/luxater/1.png",
+        "./proyectos/luxater/2.png",
+        "./proyectos/luxater/3.png",
+        "./proyectos/luxater/4.png"
+      ],
+      "url": "https://www.luxater.blog"
     },
     {
       "name": "Jardin Management CPanel",
@@ -67,7 +79,8 @@
         "./proyectos/hyWeb/10.png",
         "./proyectos/hyWeb/11.png",
         "./proyectos/hyWeb/12.png"
-      ]
+      ],
+      "url": "https://www.hybeans.com"
     },
 
     {

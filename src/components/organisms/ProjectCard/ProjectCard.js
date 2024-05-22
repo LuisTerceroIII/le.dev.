@@ -14,6 +14,7 @@ const ProjectCard = ({ dataCard, show }) => {
       description={description}
       tags={tags}
       show={show}
+      url={dataCard?.url || null}
     />
   );
 };
